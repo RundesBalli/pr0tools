@@ -7,4 +7,4 @@ Wenn du ein Projekt auf pr0.tools sehen willst, dann erstell ein [Issue](https:/
 
 ## Danksagung
 Danke auch hier nochmal an [yys](https://pr0gramm.com/user/yys), der das Projekt vor einiger Zeit gestartet und betreut hat.  
-Das Projekt wurde am 22. Juni 2019 von mir, RundesBalli, übernommen und komplett neu aufgesetzt und umgestaltet.
+Das Projekt wurde am 22. Juni 2019 von mir, RundesBalli, übernommen, komplett neu aufgesetzt und umgestaltet.
