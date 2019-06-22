@@ -48,6 +48,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'app',	0),
 ('nice-to-know',	'badewanne',	0),
 ('nice-to-know',	'eckdaten',	0),
+('nice-to-know',	'pr0wiki',	0),
 ('nice-to-know',	'screenshots',	0),
 ('nice-to-know',	'tts',	0),
 ('nice-to-know',	'userscripts',	0),
@@ -65,7 +66,8 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('creation',	'pr0p0ll-viewer',	30),
 ('stats',	'pr0kular',	30),
 ('community',	'pr0keys',	40),
-('stats',	'pr0stats',	40);
+('stats',	'pr0stats',	40),
+('community',	'pr0wiki',	50);
 
 DROP TABLE IF EXISTS `items`;
 CREATE TABLE `items` (
@@ -92,6 +94,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('pr0stats (veraltet)',	'pr0stats',	'Alte Statistiken über das pr0gramm.',	'pr0stats',	'pr0stats.png',	'https://pr0stats.github.io/'),
 ('pr0texter',	'pr0texter',	'Tool zum einfachen Erstellen von OC.',	'ZungeWegIchFurz',	'pr0texter.png',	'http://pr0texter.com/'),
 ('pr0verter',	'pr0verter',	'Mit dem pr0verter kannst du deine Videos direkt in das webm Format konvertieren.',	'Kabel2',	'pr0verter.png',	'https://pr0verter.de/'),
+('pr0wiki',	'pr0wiki',	'Das pr0wiki ist eine Zusammenfassung von nützlichem Wissen über das pr0gramm. Es wird stetig erweitert.',	'MedPlex',	'pr0wiki.png',	'https://pr0wiki.com/'),
 ('rep0st',	'rep0st',	'rep0st minimiert das Risiko von Benisverkürzungen durch Reposts. Mithilfe unserer Skalarwellentechnologie wurden alle Bilder, die je auf dem pr0gramm gepostet wurden, auf dem im pr0gramm Hauptquartier befindlichen SNASA Cluster aufbereitet und indiziert. Mithilfe von reichlich Magie wird dann dein Bild mit der Datenbank verglichen. Angezeigt werden dann Bilder, die deinem Bild ähnlich sind! (Kann p0rn und g0re enthalten!)\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'Rene8888',	'rep0st.png',	'https://rep0st.rene8888.at/'),
 ('große, lange Screenshots',	'screenshots',	'Tutorial um große, lange Screenshots zu erstellen.',	'Donnerstaender',	'screenshots.png',	'https://pr0gramm.com/new/1579819'),
 ('text2speech Tutorial',	'tts',	'Text2Speech / Computerstimme für OC-Videos',	'qbl',	'tts.png',	'https://pr0gramm.com/new/1947058'),
@@ -99,4 +102,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2019-06-22 16:58:49
+-- 2019-06-22 18:10:49
