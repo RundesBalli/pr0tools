@@ -14,16 +14,7 @@ https://github.com/RundesBalli/pr0tools
     <meta name="author" content="RundesBalli"/>
     <meta name="revisit-after" content="3 days"/>
     <link href="/src/style.css" rel="stylesheet">
-    <script>
-    function toggleMenu() {
-      var x = document.getElementById("nav");
-      if (x.className === "nav") {
-          x.className += " responsive";
-      } else {
-          x.className = "nav";
-      }
-    }
-    </script>
+    <script type="text/javascript" src="/src/toggleMenu.js"></script>
     <link rel="shortcut icon" href="/src/favicon.png" type="image/png">
     <meta name="theme-color" content="#161618">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
