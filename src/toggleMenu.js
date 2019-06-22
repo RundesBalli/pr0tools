@@ -6,3 +6,7 @@ function toggleMenu() {
       x.className = "nav";
   }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('toggle').addEventListener('click', toggleMenu);
+});
