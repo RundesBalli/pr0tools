@@ -67,7 +67,8 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('stats',	'pr0kular',	30),
 ('community',	'pr0keys',	40),
 ('stats',	'pr0stats',	40),
-('community',	'pr0wiki',	50);
+('community',	'pr0wiki',	50),
+('community',	'fap0gramm',	60);
 
 DROP TABLE IF EXISTS `items`;
 CREATE TABLE `items` (
@@ -86,6 +87,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('pr0gramm Android App',	'app',	'Die offizielle pr0gramm Android App.',	'Mopsalarm',	'app.png',	'https://app.pr0gramm.com/'),
 ('pr0-Norm #1 - Die Badewanne',	'badewanne',	'Die allseits beliebte Badewanne genormt.',	'J0unz',	'badewanne.png',	'https://pr0gramm.com/new/1350989'),
 ('Eckdaten',	'eckdaten',	'Eckdaten für Textposts',	'holzmaster',	'eckdaten.png',	'https://holzmaster.github.io/userscripts/eckdaten/'),
+('fap0gramm',	'fap0gramm',	'fap0gramm ist ein nsfw-viewer für das pr0gramm',	'VladimirObama',	'fap0gramm.png',	'https://fap0gramm.com/'),
 ('pr0keys',	'pr0keys',	'Schließe dich der Community an und bereite anderen pr0grammern eine Freude! Auf pr0keys werden Steam-Keys für Spiele und andere Apps, die nicht mehr benötigt werden, geteilt. Meist stammen diese Keys aus Random-Key Paketen oder aus Humble Bundle-Bundles. Anstatt diese Keys einfach liegen zu lassen, kannst du sie hier mit anderen pr0grammern teilen.\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'pornl0ader',	'pr0keys.png',	'https://pr0keys.com/'),
 ('pr0kular',	'pr0kular',	'Topliste aller Posts mit verschiedenen Suchmöglichkeiten.',	'pr0stats',	'pr0kular.png',	'https://pr0kular.herokuapp.com'),
 ('pr0p0ll',	'pr0p0ll',	'pr0p0ll ist eine Umfragenplattform nur für pr0grammer. Erstell deine eigenen Umfragen und befrag die Community!',	'RundesBalli',	'pr0p0ll.png',	'https://pr0p0ll.com/'),
@@ -102,4 +104,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2019-06-22 18:10:49
+-- 2019-06-22 21:22:08
