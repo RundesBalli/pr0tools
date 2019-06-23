@@ -45,6 +45,7 @@ CREATE TABLE `category_items` (
 
 TRUNCATE `category_items`;
 INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
+('nice-to-know',	'apidoc',	0),
 ('nice-to-know',	'app',	0),
 ('nice-to-know',	'badewanne',	0),
 ('nice-to-know',	'badewanne-1-1',	0),
@@ -64,6 +65,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('creation',	'pr0p0st',	20),
 ('stats',	'pr0p0ll',	20),
 ('upload',	'rep0st',	20),
+('stats',	'apidoc',	25),
 ('community',	'pr0p0ll',	30),
 ('creation',	'pr0p0ll-viewer',	30),
 ('stats',	'pr0kular',	30),
@@ -86,6 +88,7 @@ CREATE TABLE `items` (
 
 TRUNCATE `items`;
 INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `url`) VALUES
+('API Dokumentation',	'apidoc',	'Inoffizielle Dokumentation für die pr0gramm API',	'5yn74x',	'apidoc.png',	'https://pr0gramm.com/new/3273699'),
 ('pr0gramm Android App',	'app',	'Die offizielle pr0gramm Android App.',	'Mopsalarm',	'app.png',	'https://app.pr0gramm.com/'),
 ('pr0-Norm #1 - Die Badewanne',	'badewanne',	'Die allseits beliebte Badewanne genormt.',	'J0unz',	'badewanne.png',	'https://pr0gramm.com/new/1350989'),
 ('pr0-Norm #1.1 - Aktualisierung',	'badewanne-1-1',	'Eine Aktualisierung der Badenwannennorm.',	'DerAckrige',	'badewanne_1-1.png',	'https://pr0gramm.com/new/2029841'),
@@ -108,4 +111,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2019-06-23 14:33:06
+-- 2019-06-23 17:18:05
