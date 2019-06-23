@@ -26,7 +26,7 @@ TRUNCATE `categories`;
 INSERT INTO `categories` (`title`, `shortTitle`, `sortIndex`, `description`, `shortDescription`) VALUES
 ('Communityprojekte',	'community',	30,	'In dieser Kategorie findest du Projekte von Nutzern für Nutzer. ',	'Projekte von und für Nutzer'),
 ('Posterstellung',	'creation',	10,	'In dieser Kategorie findest du nützliche Tools zum Thema Posterstellung.\r\n\r\nDamit kannst du zum Beispiel deine eigenen Textposts erstellen und mit Bildern versehen. OC-Offensive!',	'Nie wieder mit Photoshop herumquälen'),
-('gut zu wissen',	'nice-to-know',	50,	'Hier werden Links zu Posts, Kommentaren und Seiten mit besonderem Wert gesammelt.',	'Links zu Posts und Kommentaren mit besonderem Wert'),
+('Gut zu wissen',	'nice-to-know',	50,	'Hier werden Links zu Posts, Kommentaren und Seiten mit besonderem Wert gesammelt.',	'Links zu Posts und Kommentaren mit besonderem Wert'),
 ('Statistiken',	'stats',	40,	'In dieser Kategorie findest du interessante Statistiken und Aufstellungen, alles was die API hergibt.',	'Alles was die API hergibt!'),
 ('Hochladen',	'upload',	20,	'In dieser Kategorie findest du nützliche Tools zum Thema Hochladen.\r\n\r\nFinde Reposts oder wandel deine Videos in das richtige Format um!',	'Reposts finden, Videos konvertieren...');
 
@@ -41,7 +41,7 @@ CREATE TABLE `category_items` (
   KEY `sortindex` (`sortIndex`),
   CONSTRAINT `category_items_ibfk_1` FOREIGN KEY (`category`) REFERENCES `categories` (`shortTitle`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `category_items_ibfk_2` FOREIGN KEY (`item`) REFERENCES `items` (`shortTitle`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Kategorienzuweisungstabelle';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Querverweistabelle';
 
 TRUNCATE `category_items`;
 INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
@@ -50,6 +50,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'eckdaten',	0),
 ('nice-to-know',	'pr0wiki',	0),
 ('nice-to-know',	'screenshots',	0),
+('nice-to-know',	'tierduden',	0),
 ('nice-to-know',	'tts',	0),
 ('nice-to-know',	'userscripts',	0),
 ('community',	'app',	10),
@@ -99,9 +100,10 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('pr0wiki',	'pr0wiki',	'Das pr0wiki ist eine Zusammenfassung von nützlichem Wissen über das pr0gramm. Es wird stetig erweitert.',	'MedPlex',	'pr0wiki.png',	'https://pr0wiki.com/'),
 ('rep0st',	'rep0st',	'rep0st minimiert das Risiko von Benisverkürzungen durch Reposts. Mithilfe unserer Skalarwellentechnologie wurden alle Bilder, die je auf dem pr0gramm gepostet wurden, auf dem im pr0gramm Hauptquartier befindlichen SNASA Cluster aufbereitet und indiziert. Mithilfe von reichlich Magie wird dann dein Bild mit der Datenbank verglichen. Angezeigt werden dann Bilder, die deinem Bild ähnlich sind! (Kann p0rn und g0re enthalten!)\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'Rene8888',	'rep0st.png',	'https://rep0st.rene8888.at/'),
 ('große, lange Screenshots',	'screenshots',	'Tutorial um große, lange Screenshots zu erstellen.',	'Donnerstaender',	'screenshots.png',	'https://pr0gramm.com/new/1579819'),
+('Tierduden v4',	'tierduden',	'Der pr0gramm Tierduden ist eine Aufstellung aller Kadsen, Kefer und .EXEn',	'Unbefriedigend',	'tierduden.png',	'https://pr0gramm.com/new/1755191'),
 ('text2speech Tutorial',	'tts',	'Text2Speech / Computerstimme für OC-Videos',	'qbl',	'tts.png',	'https://pr0gramm.com/new/1947058'),
 ('Userscripts',	'userscripts',	'Was es gibt, was gewollt wird.\r\n\r\nDie Userscripts, Plugins, Userstyles und Tools werden alle von unterschiedlichen Entwicklern gewartet und weiterentwickelt.\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'holzmaster',	'userscripts.png',	'https://holzmaster.github.io/userscripts/'),
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2019-06-22 21:22:08
+-- 2019-06-23 14:02:10
