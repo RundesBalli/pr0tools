@@ -52,8 +52,6 @@ img {
 
 img.thumb {
   border: 1px solid #f2f5f4;
-  max-width: 300px;
-  max-height: 200px;
 }
 
 a {
