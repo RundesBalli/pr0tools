@@ -1,0 +1,27 @@
+# Disable Indexing
+IndexIgnore *
+
+# Add some security headers
+Header set X-Frame-Options DENY
+Header set X-XSS-Protection "1; mode=block"
+Header set Content-Security-Policy "default-src 'self'"
+Header set X-Content-Type-Options nosniff
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+
+# Rewrite engine
+RewriteEngine On
+
+# If requested URL is a file or directory then ignore rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rule to show contents of a category
+# category/{categoryname}
+RewriteRule ^category\/([\w\d-]+)$ /index.php?p=showcategory&category=$1 [NC,L,QSA]
+
+# Rule for the rest
+RewriteRule ^([\w\d-]+)$ /index.php?p=$1 [NC,L,QSA]
+
+# Errorhandling
+ErrorDocument 404 /index.php?p=404
+ErrorDocument 403 /index.php?p=403
