@@ -20,9 +20,9 @@ https://github.com/RundesBalli/pr0tools
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <!--<div id="header">
+    <div id="header">
       <img src="/src/header.png" alt="Header">
-    </div> folgt-->
+    </div>
     <div id="nav" class="nav">
       <a class="icon" id="toggle">&#x2630;</a><a href="/">Startseite</a>{NAV}
     </div>
