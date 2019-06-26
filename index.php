@@ -43,6 +43,7 @@ $pageArray = array(
 
   /* Seiten zur Ansicht der Kategorien und Einträge */
   'showcategory'   => 'showcategory.php',
+  'all'            => 'all.php',
 
   /* Fehlerseiten */
   '404'            => '404.php',
@@ -60,7 +61,7 @@ if(isset($pageArray[$getp])) {
 
 /**
  * Navigation
- * Hinweis: Die Startseitenverlinkung und das Toggle-Element sind im Template enthalten.
+ * Hinweis: Die Startseitenverlinkung, "Alles" und das Toggle-Element sind im Template enthalten.
  */
 $nav = "";
 $result = mysqli_query($dbl, "SELECT `title`, `shortTitle` FROM `categories` ORDER BY `sortindex` ASC, `title` ASC") OR DIE(MYSQLI_ERROR($dbl));
