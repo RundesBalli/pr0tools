@@ -1,5 +1,7 @@
 <?php
 /**
+ * 404.php
+ * 
  * 404 ErrorDocument.
  * Gibt die Fehlermeldung, sowie den angeforderten Pfad zurück.
  */

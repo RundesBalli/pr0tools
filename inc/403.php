@@ -1,5 +1,7 @@
 <?php
 /**
+ * 403.php
+ * 
  * 403 ErrorDocument.
  * Gibt die Fehlermeldung, sowie den angeforderten Pfad zurück.
  */

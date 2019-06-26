@@ -2,7 +2,7 @@
 /**
  * functions.php
  * 
- * Datei mit Funktionen für den Betrieb
+ * Datei mit Funktionen für den Betrieb.
  */
 
 /**
