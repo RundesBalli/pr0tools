@@ -63,21 +63,22 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('stats',	'w0chenstatistik',	10),
 ('upload',	'pr0verter',	10),
 ('community',	'z0cken',	15),
-('creation',	'eckdaten',	15),
 ('community',	'userscripts',	20),
-('creation',	'pr0p0st',	20),
+('creation',	'eckdaten',	20),
 ('games',	'flatterfogel',	20),
 ('stats',	'pr0p0ll',	20),
 ('upload',	'rep0st',	20),
 ('stats',	'apidoc',	25),
 ('community',	'pr0p0ll',	30),
-('creation',	'pr0p0ll-viewer',	30),
+('creation',	'thumbnails',	30),
 ('games',	'pr0fense',	30),
 ('stats',	'pr0kular',	30),
 ('community',	'pr0keys',	40),
+('creation',	'pr0p0st',	40),
 ('games',	'guess-the-tag',	40),
 ('stats',	'pr0stats',	40),
 ('community',	'pr0wiki',	50),
+('creation',	'pr0p0ll-viewer',	50),
 ('community',	'fap0gramm',	60);
 
 DROP TABLE IF EXISTS `items`;
@@ -115,10 +116,11 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('pr0wiki',	'pr0wiki',	'Das pr0wiki ist eine Zusammenfassung von nützlichem Wissen über das pr0gramm. Es wird stetig erweitert.',	'MedPlex',	'pr0wiki.png',	'https://pr0wiki.com/'),
 ('rep0st',	'rep0st',	'rep0st minimiert das Risiko von Benisverkürzungen durch Reposts. Mithilfe unserer Skalarwellentechnologie wurden alle Bilder, die je auf dem pr0gramm gepostet wurden, auf dem im pr0gramm Hauptquartier befindlichen SNASA Cluster aufbereitet und indiziert. Mithilfe von reichlich Magie wird dann dein Bild mit der Datenbank verglichen. Angezeigt werden dann Bilder, die deinem Bild ähnlich sind! (Kann p0rn und g0re enthalten!)\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'Rene8888',	'rep0st.png',	'https://rep0st.rene8888.at/'),
 ('große, lange Screenshots',	'screenshots',	'Tutorial um große, lange Screenshots zu erstellen.',	'Donnerstaender',	'screenshots.png',	'https://pr0gramm.com/new/1579819'),
+('Thumbnail mit Rahmen',	'thumbnails',	'Anleitung für schöne Vorschaubildchen mit Rahmen.',	'Retrowinger',	'thumbnails.png',	'https://pr0gramm.com/new/3295515'),
 ('Tierduden v4',	'tierduden',	'Der pr0gramm Tierduden ist eine Aufstellung aller Kadsen, Kefer und .EXEn',	'Unbefriedigend',	'tierduden.png',	'https://pr0gramm.com/new/1755191'),
 ('text2speech Tutorial',	'tts',	'Text2Speech / Computerstimme für OC-Videos',	'qbl',	'tts.png',	'https://pr0gramm.com/new/1947058'),
 ('Userscripts',	'userscripts',	'Was es gibt, was gewollt wird.\r\n\r\nDie Userscripts, Plugins, Userstyles und Tools werden alle von unterschiedlichen Entwicklern gewartet und weiterentwickelt.\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'holzmaster',	'userscripts.png',	'https://holzmaster.github.io/userscripts/'),
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2019-06-30 14:10:33
+-- 2019-07-05 20:15:54
