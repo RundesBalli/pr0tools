@@ -73,6 +73,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('creation',	'thumbnails',	30),
 ('games',	'pr0fense',	30),
 ('stats',	'pr0kular',	30),
+('creation',	'memetemplates',	35),
 ('community',	'pr0keys',	40),
 ('creation',	'pr0p0st',	40),
 ('games',	'guess-the-tag',	40),
@@ -104,6 +105,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('fap0gramm',	'fap0gramm',	'fap0gramm ist ein nsfw-viewer für das pr0gramm',	'VladimirObama',	'fap0gramm.png',	'https://fap0gramm.com/'),
 ('Flatterfogel',	'flatterfogel',	'Ein Flappybird-Klon als pr0-Version',	'C0dingschmuser',	'flatterfogel.png',	'https://pr0gramm.com/new/2230627'),
 ('GuessTheTag',	'guess-the-tag',	'GuessTheTag ist ein Tagratespiel, bei dem man von einem Post den korrekten Tag erraten muss.',	'C0dingschmuser',	'guess-the-tag.png',	'https://pr0gramm.com/new/3126416'),
+('Memetemplates in HD',	'memetemplates',	'Hier gibt es zahlreiche Memetemplates in bester Bildqualität.',	'Meistergeck0',	'memetemplates.png',	'https://pr0gramm.com/new/3294493'),
 ('Pr0fense',	'pr0fense',	'pr0fense ist ein Tower-Defense Spiel im pr0gramm-Stil.',	'C0dingschmuser',	'pr0fense.png',	'https://pr0gramm.com/new/2561200'),
 ('pr0keys',	'pr0keys',	'Schließe dich der Community an und bereite anderen pr0grammern eine Freude! Auf pr0keys werden Steam-Keys für Spiele und andere Apps, die nicht mehr benötigt werden, geteilt. Meist stammen diese Keys aus Random-Key Paketen oder aus Humble Bundle-Bundles. Anstatt diese Keys einfach liegen zu lassen, kannst du sie hier mit anderen pr0grammern teilen.\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'pornl0ader',	'pr0keys.png',	'https://pr0keys.com/'),
 ('pr0kular',	'pr0kular',	'Topliste aller Posts mit verschiedenen Suchmöglichkeiten.',	'pr0stats',	'pr0kular.png',	'https://pr0kular.herokuapp.com'),
@@ -123,4 +125,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2019-07-05 20:15:54
+-- 2019-07-05 20:24:11
