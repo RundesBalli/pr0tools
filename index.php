@@ -76,8 +76,5 @@ if(mysqli_num_rows($result) != 0) {
  */
 $templatefile = __DIR__.DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."template.tpl";
 $fp = fopen($templatefile, "r");
-if(!headers_sent()) {
-  http_response_code(200);
-}
 echo preg_replace(array("/{TITLE}/im", "/{NAV}/im", "/{CONTENT}/im"), array(($title == "" ? "" : " - ".$title), $nav, $content), fread($fp, filesize($templatefile)));
 ?>
