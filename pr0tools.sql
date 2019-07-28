@@ -83,7 +83,8 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('community',	'pr0wiki',	50),
 ('creation',	'pr0p0ll-viewer',	50),
 ('community',	'fap0gramm',	60),
-('creation',	'scribus',	60);
+('creation',	'tts',	60),
+('creation',	'scribus',	70);
 
 DROP TABLE IF EXISTS `items`;
 CREATE TABLE `items` (
@@ -131,4 +132,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2019-07-21 19:19:59
+-- 2019-07-28 09:12:00
