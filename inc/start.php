@@ -13,6 +13,16 @@ $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Dir fehlt eine Verlinkung? <a href='https://pr0gramm.com/inbox/messages/RundesBalli' target='_blank' rel='noopener'>Schreib mir eine PN</a> oder <a href='https://github.com/RundesBalli/pr0tools/issues/new' target='_blank' rel='noopener'>eröffne ein Issue auf Github</a>.</div>".PHP_EOL.
 "</div>".PHP_EOL;
 
+$content.= "<div class='spacer-s'></div>".PHP_EOL;
+
+/**
+ * Favoriten
+ */
+$content.= "<h1><span class='fas'>&#xf004;</span> Favoriten <span class='highlight'>Neu!</span></h1>".PHP_EOL;
+$content.= "<div class='row'>".PHP_EOL.
+"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Du kannst <a href='/addfav'>deine eigenen Favoritenlisten erstellen</a>.</div>".PHP_EOL.
+"</div>".PHP_EOL;
+
 $content.= "<div class='spacer-l'></div>".PHP_EOL;
 
 /**

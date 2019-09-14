@@ -386,7 +386,7 @@ https://fontawesome.com/
   6. Forms
 */
 
-input[type=text], input[type=password], select, textarea {
+input[type=text], input[type=password], input[type=number], select, textarea {
   width: 100%;
   border: 1px solid #f2f5f4;
   padding: 8px;
@@ -399,14 +399,14 @@ textarea {
   height: 120px;
 }
 
-input[type=text]:focus, input[type=password]:focus, select:focus, textarea:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, select:focus, textarea:focus {
   background-color: #212121;
   border: 1px solid #ee4d2e;
   outline-color: #ee4d2e
 }
 
 input[type=submit], input[type=reset], input[type=button] {
-  width: 30%;
+  min-width: 30%;
   cursor: pointer;
   padding: 8px 12px;
   background-color: #161618;

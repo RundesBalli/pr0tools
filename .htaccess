@@ -19,6 +19,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # category/{categoryname}
 RewriteRule ^category\/([\w\d-]+)$ /index.php?p=showcategory&category=$1 [NC,L,QSA]
 
+# Rules for Favorites
+RewriteRule ^(add|edit|del|)fav\/([a-f0-9]{32})$ /index.php?p=$1fav&key=$2 [NC,L,QSA]
+
 # Rule for the rest
 RewriteRule ^([\w\d-]+)$ /index.php?p=$1 [NC,L,QSA]
 
