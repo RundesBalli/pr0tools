@@ -416,6 +416,8 @@ input[type=submit], input[type=reset], input[type=button] {
 
 input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
   background-color: #212121;
+  border: 1px solid #ee4d2e;
+  outline-color: #ee4d2e
 }
 
 label {
