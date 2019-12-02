@@ -55,7 +55,7 @@ if(!isset($_GET['key']) OR empty($_GET['key'])) {
          * Anzeige der Favoriten
          */
         while($row = mysqli_fetch_array($result)) {
-          $content.= "<div class='row'>".PHP_EOL.
+          $content.= "<div class='row item hover'>".PHP_EOL.
           "<div class='col-x-12 col-s-12 col-m-12 col-l-3 col-xl-3'><a href='".$row['url']."' target='_blank' rel='noopener'><img class='thumb' src='/".($row['thumb'] == NULL ? "src/nothumb.png" : "thumbs/".$row['thumb'])."' alt='Bild'></a></div>".PHP_EOL.
           "<div class='col-x-12 col-s-12 col-m-12 col-l-9 col-xl-9'>".PHP_EOL.
           "<div class='row'>".PHP_EOL.

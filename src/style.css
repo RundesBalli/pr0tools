@@ -264,7 +264,7 @@ https://fontawesome.com/
   border: 0;
 }
 
- /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   [class*="col-"] {
     padding: 5px 5px;
@@ -370,6 +370,10 @@ https://fontawesome.com/
   display: table;
 }
 
+.hover:hover {
+  background-color: #212121;
+}
+
 .spacer-s {
   height: 15px;
 }
@@ -380,6 +384,15 @@ https://fontawesome.com/
 
 .spacer-l {
   height: 50px;
+}
+
+.description {
+  border-left: 5px solid #444444;
+}
+
+.item {
+  border: 2px solid #444444;
+  background: rgba(68, 68, 68, 0.2);
 }
 
 /*

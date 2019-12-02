@@ -39,7 +39,7 @@ if(!isset($_GET['key']) OR empty($_GET['key'])) {
        */
       if(!isset($_POST['submit'])) {
         $content.= "<div class='row'>".PHP_EOL.
-        "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Mittels Häkchen werden die Favoriten gesetzt. Du kannst sie innerhalb deiner Favoriten noch sortieren. Nutze dafür den Sortierindex. 0 = oben, x&gt;0 = weiter unten.</div>".PHP_EOL.
+        "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12 description'>Mittels Häkchen werden die Favoriten gesetzt. Du kannst sie innerhalb deiner Favoriten noch sortieren. Nutze dafür den Sortierindex. 0 = oben, x&gt;0 = weiter unten.</div>".PHP_EOL.
         "</div>".PHP_EOL;
         /**
          * Alle Items abfragen.
@@ -50,7 +50,7 @@ if(!isset($_GET['key']) OR empty($_GET['key'])) {
           /**
            * Alle Items zeigen und zur Auswahl stellen.
            */
-          $content.= "<div class='row'>".PHP_EOL.
+          $content.= "<div class='row hover'>".PHP_EOL.
           "<div class='col-x-1 col-s-1 col-m-1 col-l-1 col-xl-1'><input type='checkbox' name='items[".$row['shortTitle']."]' value='1'".(($row['sortindex'] !== NULL) ? "checked" : "")."></div>".PHP_EOL.
           "<div class='col-x-3 col-s-3 col-m-2 col-l-2 col-xl-2'><input type='number' value='".$row['sortindex']."' name='sortindex[".$row['shortTitle']."]'></div>".PHP_EOL.
           "<div class='col-x-8 col-s-8 col-m-9 col-l-9 col-xl-9'>".$row['title']."</div>".PHP_EOL.
@@ -59,7 +59,7 @@ if(!isset($_GET['key']) OR empty($_GET['key'])) {
         /**
          * Submit-Button
          */
-        $content.= "<div class='row'>".PHP_EOL.
+        $content.= "<div class='row hover'>".PHP_EOL.
         "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><input type='submit' name='submit' value='Änderungen eintragen'></div>".PHP_EOL.
         "</div>".PHP_EOL;
         $content.= "</form>".PHP_EOL;

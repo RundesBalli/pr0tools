@@ -29,15 +29,18 @@ $content.= "<div class='spacer-l'></div>".PHP_EOL;
  * ...sowie Auflistung aller Kategorien mit Kurzbeschreibung.
  */
 $content.= "<h1><span class='fas'>&#xf07c;</span> Kategorien</h1>".PHP_EOL;
-$content.= "<div class='row'>".PHP_EOL;
+$content.= "<div class='row hover'>".PHP_EOL;
 $content.= "<div class='col-x-12 col-s-12 col-m-3 col-l-3 col-xl-3'><a href='/all'>Alles</a></div>".PHP_EOL.
 "<div class='col-x-12 col-s-12 col-m-9 col-l-9 col-xl-9'>Zeigt alle Inhalte an.</div>".PHP_EOL.
-"<div class='col-x-12 col-s-12 col-m-0 col-l-0 col-xl-0'><div class='spacer-s'></div></div>".PHP_EOL;
+"<div class='col-x-12 col-s-12 col-m-0 col-l-0 col-xl-0'><div class='spacer-s'></div></div>".PHP_EOL.
+"</div>".PHP_EOL;
+
 $result = mysqli_query($dbl, "SELECT * FROM `categories` ORDER BY `sortindex` ASC, `title` ASC") OR DIE(MYSQLI_ERROR($dbl));
 while($row = mysqli_fetch_array($result)) {
+  $content.= "<div class='row hover'>".PHP_EOL;
   $content.= "<div class='col-x-12 col-s-12 col-m-3 col-l-3 col-xl-3'><a href='/category/".$row['shortTitle']."'>".$row['title']."</a></div>".PHP_EOL.
   "<div class='col-x-12 col-s-12 col-m-9 col-l-9 col-xl-9'>".($row['shortDescription'] == NULL ? "<span class='italic'>Keine Beschreibung vorhanden</span>" : $row['shortDescription'])."</div>".PHP_EOL.
   "<div class='col-x-12 col-s-12 col-m-0 col-l-0 col-xl-0'><div class='spacer-s'></div></div>".PHP_EOL;
+  $content.= "</div>".PHP_EOL;
 }
-$content.= "</div>".PHP_EOL;
 ?>
