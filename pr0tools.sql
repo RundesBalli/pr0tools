@@ -10,7 +10,7 @@ USE `pr0tools`;
 DELIMITER ;;
 
 DROP EVENT IF EXISTS `Automatisches Löschen der Favoriten`;;
-CREATE EVENT `Automatisches Löschen der Favoriten` ON SCHEDULE EVERY 1 HOUR STARTS '2019-09-14 09:21:51' ON COMPLETION NOT PRESERVE ENABLE COMMENT 'Löscht Favoriten, die 6 Wochen nicht genutzt wurden.' DO DELETE FROM `fav` WHERE `lastused` < DATE_SUB(NOW(), INTERVAL 6 WEEK);;
+CREATE EVENT `Automatisches Löschen der Favoriten` ON SCHEDULE EVERY 1 HOUR STARTS '2019-09-14 09:21:51' ON COMPLETION NOT PRESERVE ENABLE COMMENT 'Löscht Favoriten, die 20 Wochen nicht genutzt wurden.' DO DELETE FROM `fav` WHERE `lastused` < DATE_SUB(NOW(), INTERVAL 20 WEEK);;
 
 DROP EVENT IF EXISTS `Automatisches Löschen leerer Favoriteneinträge.`;;
 CREATE EVENT `Automatisches Löschen leerer Favoriteneinträge.` ON SCHEDULE EVERY 10 MINUTE STARTS '2019-09-14 15:48:27' ON COMPLETION NOT PRESERVE ENABLE COMMENT 'Löscht Favoriteneinträge, die angelegt aber nie befüllt wurden.' DO DELETE FROM `fav` WHERE `lastused` < DATE_SUB(NOW(), INTERVAL 1 HOUR) AND NOT EXISTS (SELECT * FROM `fav_items` WHERE `fav_items`.`key` = `fav`.`key`);;
