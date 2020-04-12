@@ -63,6 +63,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'eckdaten',	0),
 ('nice-to-know',	'pr0wiki',	0),
 ('nice-to-know',	'screenshots',	0),
+('nice-to-know',	'suche',	0),
 ('nice-to-know',	'tierduden',	0),
 ('nice-to-know',	'tts',	0),
 ('nice-to-know',	'userscripts',	0),
@@ -166,4 +167,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2020-03-21 19:47:40
+-- 2020-04-12 01:02:35
