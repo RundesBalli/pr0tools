@@ -62,6 +62,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'bwcalc',	0),
 ('nice-to-know',	'eckdaten',	0),
 ('nice-to-know',	'pr0wiki',	0),
+('nice-to-know',	'rueckwaertssuche',	0),
 ('nice-to-know',	'screenshots',	0),
 ('nice-to-know',	'suche',	0),
 ('nice-to-know',	'tierduden',	0),
@@ -158,6 +159,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('pr0verter Offline',	'pr0verter-offline',	'Der pr0verter als Offline-Version.',	'Pennypacker',	'pr0verter_offline.png',	'https://pr0gramm.com/new/3322321'),
 ('pr0wiki',	'pr0wiki',	'Das pr0wiki ist eine Zusammenfassung von nützlichem Wissen über das pr0gramm. Es wird stetig erweitert.',	'MedPlex',	'pr0wiki.png',	'https://pr0wiki.com/'),
 ('rep0st',	'rep0st',	'rep0st minimiert das Risiko von Benisverkürzungen durch Reposts. Mithilfe unserer Skalarwellentechnologie wurden alle Bilder, die je auf dem pr0gramm gepostet wurden, auf dem im pr0gramm Hauptquartier befindlichen SNASA Cluster aufbereitet und indiziert. Mithilfe von reichlich Magie wird dann dein Bild mit der Datenbank verglichen. Angezeigt werden dann Bilder, die deinem Bild ähnlich sind! (Kann p0rn und g0re enthalten!)\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'Rene8888',	'rep0st.png',	'https://rep0st.rene8888.at/'),
+('Rückwärtssuche',	'rueckwaertssuche',	'Der Infopost zur Rückwärtssuche auf pr0gramm.\r\nDie Rückwärtssuche kann genutzt werden um den zugehörigen Upload zu einem Direktlink herauszufinden.',	'pr0gramm',	'rueckwaertssuche.png',	'https://pr0gramm.com/new/3323910'),
 ('große, lange Screenshots',	'screenshots',	'Tutorial um große, lange Screenshots zu erstellen.',	'Donnerstaender',	'screenshots.png',	'https://pr0gramm.com/new/1579819'),
 ('Scribus Tutorial',	'scribus',	'Anleitung zum Erstellen von Posts mittels Scribus.',	'Retrowinger',	'scribus.png',	'https://pr0gramm.com/new/3156775'),
 ('erweiterte Suche',	'suche',	'Die erweiterte pr0gramm-Suche.',	'pr0gramm',	'suche.png',	'https://pr0gramm.com/new/2782197'),
@@ -168,4 +170,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2020-04-12 01:02:35
+-- 2020-04-22 17:12:24
