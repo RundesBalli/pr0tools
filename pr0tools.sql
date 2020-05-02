@@ -91,13 +91,14 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('creation',	'memetemplates',	35),
 ('community',	'pr0keys',	40),
 ('creation',	'pr0p0st',	40),
-('games',	'pr0fense',	40),
+('games',	'pr0rona',	40),
 ('stats',	'pr0stats',	40),
 ('community',	'pr0wiki',	50),
 ('creation',	'pr0p0ll-viewer',	50),
-('games',	'guess-the-tag',	50),
+('games',	'pr0fense',	50),
 ('community',	'fap0gramm',	60),
 ('creation',	'tts',	60),
+('games',	'guess-the-tag',	60),
 ('creation',	'scribus',	70);
 
 DROP TABLE IF EXISTS `fav`;
@@ -156,6 +157,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('pr0p0ll',	'pr0p0ll',	'pr0p0ll ist eine Umfragenplattform nur für pr0grammer. Erstell deine eigenen Umfragen und befrag die Community!',	'RundesBalli',	'pr0p0ll.png',	'https://pr0p0ll.com/'),
 ('pr0p0ll-viewer',	'pr0p0ll-viewer',	'Der pr0p0ll-viewer ist ein Tool um die Ergebnisse einer pr0p0ll-Umfrage in einen Post mit Diagrammen umzuwandeln.',	'PoTTii',	'pr0p0ll-viewer.png',	'https://scarwolf.github.io/pr0p0ll-viewer/'),
 ('pr0p0st',	'pr0p0st',	'Tool zum einfachen Erstellen von OC.',	'retro',	'pr0p0st.png',	'https://retropr0.github.io/pr0p0st/html/'),
+('pr0rona',	'pr0rona',	'Ein Spiel zum pr0rona Ausbruch 2020. Weiche geschickt den Viren aus, trinke Bier und erreiche deinen Hochwert. Spielbar unter Python oder per Win. Installation; Code frei verfügbar.',	'pr0nihilo',	'pr0rona.png',	'https://pr0gramm.com/new/3839649'),
 ('pr0stats (veraltet)',	'pr0stats',	'Alte Statistiken über das pr0gramm.',	'pr0stats',	'pr0stats.png',	'https://pr0stats.github.io/'),
 ('pr0texter',	'pr0texter',	'Tool zum einfachen Erstellen von OC.',	'ZungeWegIchFurz',	'pr0texter.png',	'http://pr0texter.com/'),
 ('pr0verter',	'pr0verter',	'Mit dem pr0verter kannst du deine Videos direkt in das webm Format konvertieren.',	'Insax',	'pr0verter.png',	'https://pr0verter.de/'),
@@ -174,4 +176,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2020-04-26 14:15:56
+-- 2020-05-02 09:09:03
