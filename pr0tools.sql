@@ -82,6 +82,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('games',	'flatterfogel',	20),
 ('stats',	'pr0p0ll',	20),
 ('upload',	'rep0st',	20),
+('community',	'p0weruser',	25),
 ('stats',	'apidoc',	25),
 ('community',	'pr0p0ll',	30),
 ('creation',	'thumbnails',	30),
@@ -149,6 +150,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('Flatterfogel',	'flatterfogel',	'Ein Flappybird-Klon als pr0-Version',	'C0dingschmuser',	'flatterfogel.png',	'https://pr0gramm.com/new/2230627'),
 ('GuessTheTag',	'guess-the-tag',	'GuessTheTag ist ein Tagratespiel, bei dem man von einem Post den korrekten Tag erraten muss.',	'C0dingschmuser',	'guess-the-tag.png',	'https://pr0gramm.com/new/3126416'),
 ('Memetemplates in HD',	'memetemplates',	'Hier gibt es zahlreiche Memetemplates in bester Bildqualität.',	'Meistergeck0',	'memetemplates.png',	'https://pr0gramm.com/new/3294493'),
+('p0weruser Userscript',	'p0weruser',	'Root-Zugriff auf das pr0gramm! WideScreen Modus, Notification Center, eingefärbte Kommentar-Ebenen, uvm.',	'PoTTii',	'p0weruser.png',	'https://scarwolf.github.io/p0weruser/p0weruser.user.js'),
 ('pr0ball 2.0',	'pr0ball-2_0',	'Der Nachfolger von pr0ball - Sammelt Blussis, verzockt sie im Benitrat0r, verbessert eure Bälle und benutzt Skills um eure Gegner umzunieten.',	'Mopsi91',	'pr0ball-2_0.png',	'https://pr0gramm.com/new/3877042'),
 ('Pr0fense',	'pr0fense',	'pr0fense ist ein Tower-Defense Spiel im pr0gramm-Stil.',	'C0dingschmuser',	'pr0fense.png',	'https://pr0gramm.com/new/2561200'),
 ('pr0keys',	'pr0keys',	'Schließe dich der Community an und bereite anderen pr0grammern eine Freude! Auf pr0keys werden Steam-Keys für Spiele und andere Apps, die nicht mehr benötigt werden, geteilt. Meist stammen diese Keys aus Random-Key Paketen oder aus Humble Bundle-Bundles. Anstatt diese Keys einfach liegen zu lassen, kannst du sie hier mit anderen pr0grammern teilen.\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'blussischmuser',	'pr0keys.png',	'https://pr0keys.com/'),
@@ -165,7 +167,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('pr0wiki',	'pr0wiki',	'Das pr0wiki ist eine Zusammenfassung von nützlichem Wissen über das pr0gramm. Es wird stetig erweitert.',	'MedPlex',	'pr0wiki.png',	'https://pr0wiki.com/'),
 ('rep0st',	'rep0st',	'rep0st minimiert das Risiko von Benisverkürzungen durch Reposts. Mithilfe unserer Skalarwellentechnologie wurden alle Bilder, die je auf dem pr0gramm gepostet wurden, auf dem im pr0gramm Hauptquartier befindlichen SNASA Cluster aufbereitet und indiziert. Mithilfe von reichlich Magie wird dann dein Bild mit der Datenbank verglichen. Angezeigt werden dann Bilder, die deinem Bild ähnlich sind! (Kann p0rn und g0re enthalten!)\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'Rene8888',	'rep0st.png',	'https://rep0st.rene8888.at/'),
 ('Rückwärtssuche',	'rueckwaertssuche',	'Der Infopost zur Rückwärtssuche auf pr0gramm.\r\nDie Rückwärtssuche kann genutzt werden um den zugehörigen Upload zu einem Direktlink herauszufinden.',	'pr0gramm',	'rueckwaertssuche.png',	'https://pr0gramm.com/new/3323910'),
-('sch0ngesehen',	'sch0ngesehen',	'Ein Browseraddon um anzuzeigen, welche Posts man bereits gesehen hat.',	'Mwni',	'sch0ngesehen',	'https://pr0gramm.com/new/3568968'),
+('sch0ngesehen',	'sch0ngesehen',	'Ein Browseraddon um anzuzeigen, welche Posts man bereits gesehen hat.',	'Mwni',	'sch0ngesehen.png',	'https://pr0gramm.com/new/3568968'),
 ('große, lange Screenshots',	'screenshots',	'Tutorial um große, lange Screenshots zu erstellen.',	'Donnerstaender',	'screenshots.png',	'https://pr0gramm.com/new/1579819'),
 ('Scribus Tutorial',	'scribus',	'Anleitung zum Erstellen von Posts mittels Scribus.',	'Retrowinger',	'scribus.png',	'https://pr0gramm.com/new/3156775'),
 ('erweiterte Suche',	'suche',	'Die erweiterte pr0gramm-Suche.',	'pr0gramm',	'suche.png',	'https://pr0gramm.com/new/2782197'),
@@ -176,4 +178,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2020-05-02 17:09:54
+-- 2020-06-30 20:26:23
