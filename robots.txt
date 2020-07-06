@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /src
+Disallow: /inc
+Disallow: /imprint
+Disallow: /thumbs
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: Spinn3r
+Disallow: /
+
+User-agent: 008
+Disallow: /
+
+User-agent: voltron
+Disallow: /
+
+User-agent: Yahoo Pipes 1.0
+Disallow: /
+
+User-agent: KSCrawler
+Disallow: /
