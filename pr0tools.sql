@@ -62,6 +62,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'bwcalc',	0),
 ('nice-to-know',	'discord',	0),
 ('nice-to-know',	'eckdaten',	0),
+('nice-to-know',	'gangsign',	0),
 ('nice-to-know',	'pr0wiki',	0),
 ('nice-to-know',	'rueckwaertssuche',	0),
 ('nice-to-know',	'sch0ngesehen',	0),
@@ -89,6 +90,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('games',	'pr0ball-2_0',	30),
 ('stats',	'pr0kular',	30),
 ('upload',	'pr0verter-offline',	30),
+('creation',	'gangsign',	32),
 ('creation',	'memetemplates',	35),
 ('community',	'pr0keys',	40),
 ('creation',	'pr0p0st',	40),
@@ -146,6 +148,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('Discord',	'discord',	'Der offizielle pr0gramm-Discordserver',	'pr0gramm',	'discord.png',	'https://discord.gg/pr0'),
 ('Eckdaten',	'eckdaten',	'Eckdaten für Textposts',	'holzmaster',	'eckdaten.png',	'https://holzmaster.github.io/userscripts/eckdaten/'),
 ('Flatterfogel',	'flatterfogel',	'Ein Flappybird-Klon als pr0-Version',	'C0dingschmuser',	'flatterfogel.png',	'https://pr0gramm.com/new/2230627'),
+('Gangsign 2.0',	'gangsign',	'Das pr0-Gangsign wie es sein sollte.',	'l00tSpastille',	'gangsign.png',	'https://pr0gramm.com/new/1500962'),
 ('GuessTheTag',	'guess-the-tag',	'GuessTheTag ist ein Tagratespiel, bei dem man von einem Post den korrekten Tag erraten muss.',	'C0dingschmuser',	'guess-the-tag.png',	'https://pr0gramm.com/new/3126416'),
 ('Memetemplates in HD',	'memetemplates',	'Hier gibt es zahlreiche Memetemplates in bester Bildqualität.',	'Meistergeck0',	'memetemplates.png',	'https://pr0gramm.com/new/3294493'),
 ('p0weruser Userscript',	'p0weruser',	'Root-Zugriff auf das pr0gramm! WideScreen Modus, Notification Center, eingefärbte Kommentar-Ebenen, uvm.',	'PoTTii',	'p0weruser.png',	'https://scarwolf.github.io/p0weruser/p0weruser.user.js'),
@@ -176,4 +179,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2020-06-30 20:26:23
+-- 2020-07-27 11:46:48
