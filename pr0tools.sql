@@ -97,7 +97,6 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('community',	'pr0wiki',	50),
 ('creation',	'pr0p0ll-viewer',	50),
 ('games',	'pr0fense',	50),
-('community',	'fap0gramm',	60),
 ('creation',	'tts',	60),
 ('games',	'guess-the-tag',	60),
 ('creation',	'scribus',	70);
@@ -146,7 +145,6 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('BadewannenCalculator',	'bwcalc',	'Der praktische Rechner zum Umrechnen gemäß pr0-Norm 1.',	'ufop',	'badewannencalculator.png',	'http://badewannencalculator.de/'),
 ('Discord',	'discord',	'Der offizielle pr0gramm-Discordserver',	'pr0gramm',	'discord.png',	'https://discord.gg/pr0'),
 ('Eckdaten',	'eckdaten',	'Eckdaten für Textposts',	'holzmaster',	'eckdaten.png',	'https://holzmaster.github.io/userscripts/eckdaten/'),
-('fap0gramm',	'fap0gramm',	'fap0gramm ist ein nsfw-viewer für das pr0gramm',	'VladimirObama',	'fap0gramm.png',	'https://fap0gramm.com/'),
 ('Flatterfogel',	'flatterfogel',	'Ein Flappybird-Klon als pr0-Version',	'C0dingschmuser',	'flatterfogel.png',	'https://pr0gramm.com/new/2230627'),
 ('GuessTheTag',	'guess-the-tag',	'GuessTheTag ist ein Tagratespiel, bei dem man von einem Post den korrekten Tag erraten muss.',	'C0dingschmuser',	'guess-the-tag.png',	'https://pr0gramm.com/new/3126416'),
 ('Memetemplates in HD',	'memetemplates',	'Hier gibt es zahlreiche Memetemplates in bester Bildqualität.',	'Meistergeck0',	'memetemplates.png',	'https://pr0gramm.com/new/3294493'),
