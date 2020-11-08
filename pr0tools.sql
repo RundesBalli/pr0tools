@@ -91,7 +91,6 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('stats',	'pr0kular',	30),
 ('upload',	'pr0verter-offline',	30),
 ('creation',	'gangsign',	32),
-('creation',	'memetemplates',	35),
 ('community',	'pr0keys',	40),
 ('creation',	'pr0p0st',	40),
 ('games',	'pr0rona',	40),
@@ -150,7 +149,6 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('Flatterfogel',	'flatterfogel',	'Ein Flappybird-Klon als pr0-Version',	'C0dingschmuser',	'flatterfogel.png',	'https://pr0gramm.com/new/2230627'),
 ('Gangsign 2.0',	'gangsign',	'Das pr0-Gangsign wie es sein sollte.',	'l00tSpastille',	'gangsign.png',	'https://pr0gramm.com/new/1500962'),
 ('GuessTheTag',	'guess-the-tag',	'GuessTheTag ist ein Tagratespiel, bei dem man von einem Post den korrekten Tag erraten muss.',	'C0dingschmuser',	'guess-the-tag.png',	'https://pr0gramm.com/new/3126416'),
-('Memetemplates in HD',	'memetemplates',	'Hier gibt es zahlreiche Memetemplates in bester Bildqualität.',	'Meistergeck0',	'memetemplates.png',	'https://pr0gramm.com/new/3294493'),
 ('p0weruser Userscript',	'p0weruser',	'Root-Zugriff auf das pr0gramm! WideScreen Modus, Notification Center, eingefärbte Kommentar-Ebenen, uvm.',	'PoTTii',	'p0weruser.png',	'https://scarwolf.github.io/p0weruser/p0weruser.user.js'),
 ('pr0ball 2.0',	'pr0ball-2_0',	'Der Nachfolger von pr0ball - Sammelt Blussis, verzockt sie im Benitrat0r, verbessert eure Bälle und benutzt Skills um eure Gegner umzunieten.',	'Mopsi91',	'pr0ball-2_0.png',	'https://pr0gramm.com/new/3877042'),
 ('Pr0fense',	'pr0fense',	'pr0fense ist ein Tower-Defense Spiel im pr0gramm-Stil.',	'C0dingschmuser',	'pr0fense.png',	'https://pr0gramm.com/new/2561200'),
@@ -179,4 +177,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2020-07-27 11:46:48
+-- 2020-11-08 20:56:21
