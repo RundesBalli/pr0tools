@@ -57,7 +57,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'apidoc',	0),
 ('nice-to-know',	'app',	0),
 ('nice-to-know',	'badewanne',	0),
-('nice-to-know',	'badewanne-1-1',	0),
+('nice-to-know',	'badewanne-1-2',	0),
 ('nice-to-know',	'badges',	0),
 ('nice-to-know',	'bwcalc',	0),
 ('nice-to-know',	'discord',	0),
@@ -142,7 +142,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('API Dokumentation',	'apidoc',	'Inoffizielle Dokumentation für die pr0gramm API',	'5yn74x',	'apidoc.png',	'https://pr0gramm.com/new/3273699'),
 ('pr0gramm Android App',	'app',	'Die offizielle pr0gramm Android App.',	'Mopsalarm',	'app.png',	'https://app.pr0gramm.com/'),
 ('pr0-Norm #1 - Die Badewanne',	'badewanne',	'Die allseits beliebte Badewanne genormt.',	'J0unz',	'badewanne.png',	'https://pr0gramm.com/new/1350989'),
-('pr0-Norm #1.1 - Aktualisierung',	'badewanne-1-1',	'Eine Aktualisierung der Badenwannennorm.',	'DerAckrige',	'badewanne_1-1.png',	'https://pr0gramm.com/new/2029841'),
+('pr0-Norm #1.2 - Aktualisierung',	'badewanne-1-2',	'Eine erneute Aktualisierung der Badenwannennorm.',	'DerAckrige',	'badewanne_1-2.png',	'https://pr0gramm.com/new/4239894'),
 ('Badgeübersicht',	'badges',	'Eine Übersicht aller Badges auf pr0gramm.\r\nStand: April 2019',	't0b3',	'badges.png',	'https://pr0gramm.com/new/3125123'),
 ('BadewannenCalculator',	'bwcalc',	'Der praktische Rechner zum Umrechnen gemäß pr0-Norm 1.',	'ufop',	'badewannencalculator.png',	'http://badewannencalculator.de/'),
 ('Discord',	'discord',	'Der offizielle pr0gramm-Discordserver',	'pr0gramm',	'discord.png',	'https://discord.gg/pr0'),
@@ -179,4 +179,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2020-11-16 17:10:25
+-- 2020-12-12 10:20:20
