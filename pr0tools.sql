@@ -1,4 +1,4 @@
--- Adminer 4.7.3 MySQL dump
+-- Adminer 4.8.1 MySQL 5.5.5-10.1.48-MariaDB-0+deb9u2 dump
 
 SET NAMES utf8;
 SET time_zone = '+00:00';
@@ -79,6 +79,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('upload',	'pr0verter',	10),
 ('community',	'pr0mart',	12),
 ('community',	'z0cken',	15),
+('games',	'pr0game',	15),
 ('community',	'userscripts',	20),
 ('creation',	'eckdaten',	20),
 ('games',	'flatterfogel',	20),
@@ -156,6 +157,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('p0weruser Userscript',	'p0weruser',	'Root-Zugriff auf das pr0gramm! WideScreen Modus, Notification Center, eingefärbte Kommentar-Ebenen, uvm.',	'PoTTii',	'p0weruser.png',	'https://scarwolf.github.io/p0weruser/p0weruser.user.js'),
 ('pr0ball 2.0',	'pr0ball-2_0',	'Der Nachfolger von pr0ball - Sammelt Blussis, verzockt sie im Benitrat0r, verbessert eure Bälle und benutzt Skills um eure Gegner umzunieten.',	'Mopsi91',	'pr0ball-2_0.png',	'https://pr0gramm.com/new/3877042'),
 ('Pr0fense',	'pr0fense',	'pr0fense ist ein Tower-Defense Spiel im pr0gramm-Stil.',	'C0dingschmuser',	'pr0fense.png',	'https://pr0gramm.com/new/2561200'),
+('pr0game',	'pr0game',	'Bei pr0game handelt es sich um einen \"OGame\" Klon, der komplett auf bekannte Premiumfunktionen verzichtet um das klassische Spielgefühl von damals wiederzugeben.',	'Rosenreeman',	'pr0game.png',	'https://pr0game.com/'),
 ('pr0keys',	'pr0keys',	'Schließe dich der Community an und bereite anderen pr0grammern eine Freude! Auf pr0keys werden Steam-Keys für Spiele und andere Apps, die nicht mehr benötigt werden, geteilt. Meist stammen diese Keys aus Random-Key Paketen oder aus Humble Bundle-Bundles. Anstatt diese Keys einfach liegen zu lassen, kannst du sie hier mit anderen pr0grammern teilen.\r\n<span class=\"italic\">(Quelle: die Seite selbst)</span>',	'blussischmuser',	'pr0keys.png',	'https://pr0keys.com/'),
 ('pr0mart',	'pr0mart',	'Der offizielle pr0gramm Merchandise Shop!',	'pr0mart',	'pr0mart.png',	'https://pr0mart.com'),
 ('pr0p0ll',	'pr0p0ll',	'pr0p0ll ist eine Umfragenplattform nur für pr0grammer. Erstell deine eigenen Umfragen und befrag die Community!',	'RundesBalli',	'pr0p0ll.png',	'https://pr0p0ll.com/'),
@@ -180,4 +182,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2021-04-07 05:23:44
+-- 2022-01-03 20:30:58
