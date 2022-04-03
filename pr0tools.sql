@@ -55,7 +55,6 @@ CREATE TABLE `category_items` (
 TRUNCATE `category_items`;
 INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'1-typ-stickerpack',	0),
-('nice-to-know',	'apidoc',	0),
 ('nice-to-know',	'app',	0),
 ('nice-to-know',	'badewanne',	0),
 ('nice-to-know',	'badewanne-1-2',	0),
@@ -86,7 +85,6 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('stats',	'pr0p0ll',	20),
 ('upload',	'rep0st',	20),
 ('community',	'p0weruser',	25),
-('stats',	'apidoc',	25),
 ('community',	'pr0p0ll',	30),
 ('creation',	'thumbnails',	30),
 ('games',	'pr0ball-2_0',	30),
@@ -142,7 +140,6 @@ CREATE TABLE `items` (
 TRUNCATE `items`;
 INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `url`) VALUES
 ('1-Typ Stickerpack',	'1-typ-stickerpack',	'Die beliebten 1Typ Bilder als Stickerpack für Telegram, WhatsApp & Signal. (Siehe Kommentarbaum)',	'Fehlgeburt',	'1typ.png',	'https://pr0gramm.com/new/4372488:comment45601148'),
-('API Dokumentation',	'apidoc',	'Inoffizielle Dokumentation für die pr0gramm API',	'5yn74x',	'apidoc.png',	'https://pr0gramm.com/new/3273699'),
 ('pr0gramm Android App',	'app',	'Die offizielle pr0gramm Android App.',	'Mopsalarm',	'app.png',	'https://app.pr0gramm.com/'),
 ('pr0-Norm #1 - Die Badewanne',	'badewanne',	'Die allseits beliebte Badewanne genormt.',	'J0unz',	'badewanne.png',	'https://pr0gramm.com/new/1350989'),
 ('pr0-Norm #1.2 - Aktualisierung',	'badewanne-1-2',	'Eine erneute Aktualisierung der Badenwannennorm.',	'DerAckrige',	'badewanne_1-2.png',	'https://pr0gramm.com/new/4239894'),
@@ -182,4 +179,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2022-01-03 20:30:58
+-- 2022-04-03 10:23:08
