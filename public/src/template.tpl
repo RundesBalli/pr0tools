@@ -6,7 +6,7 @@ https://github.com/RundesBalli/pr0tools
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <title>pr0.tools{TITLE}</title>
+    <title>{TITLE}pr0.tools</title>
     <meta charset="utf-8">
     <meta name="description" content="pr0gramm Linksammlung"/>
     <meta name="robots" content="index, follow"/>
