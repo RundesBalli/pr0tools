@@ -105,28 +105,6 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('games',	'guess-the-tag',	60),
 ('creation',	'scribus',	70);
 
-DROP TABLE IF EXISTS `fav`;
-CREATE TABLE `fav` (
-  `key` varchar(32) NOT NULL COMMENT 'Schlüssel zum Anzeigen',
-  `lastused` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'Zuletzt genutzt am',
-  UNIQUE KEY `key` (`key`),
-  KEY `lastused` (`lastused`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Favoritentabelle';
-
-
-DROP TABLE IF EXISTS `fav_items`;
-CREATE TABLE `fav_items` (
-  `key` varchar(32) NOT NULL COMMENT 'Favoriteneintrag',
-  `item` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Itemeintrag',
-  `sortindex` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Sortierindex',
-  UNIQUE KEY `key_shortTitle` (`key`,`item`),
-  KEY `shortTitle` (`item`),
-  KEY `key` (`key`),
-  CONSTRAINT `fav_items_ibfk_1` FOREIGN KEY (`item`) REFERENCES `items` (`shortTitle`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `fav_items_ibfk_2` FOREIGN KEY (`key`) REFERENCES `fav` (`key`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Favoriten-Querverweistabelle';
-
-
 DROP TABLE IF EXISTS `items`;
 CREATE TABLE `items` (
   `title` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Angezeigter Name',
@@ -183,4 +161,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2022-06-11 23:13:25
+-- 2022-06-11 23:32:22

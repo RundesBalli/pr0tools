@@ -45,12 +45,6 @@ $pageArray = array(
   'showcategory'   => 'showcategory.php',
   'all'            => 'all.php',
 
-  /* Favoritenfunktion */
-  'fav'            => 'fav.php',
-  'addfav'         => 'addfav.php',
-  'editfav'        => 'editfav.php',
-  'delfav'         => 'delfav.php',
-
   /* Fehlerseiten */
   '404'            => '404.php',
   '403'            => '403.php'
