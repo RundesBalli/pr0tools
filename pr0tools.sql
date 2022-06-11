@@ -69,6 +69,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'sch0ngesehen',	0),
 ('nice-to-know',	'screenshots',	0),
 ('nice-to-know',	'suche',	0),
+('nice-to-know',	'themes',	0),
 ('nice-to-know',	'tierduden',	0),
 ('nice-to-know',	'tts',	0),
 ('nice-to-know',	'userscripts',	0),
@@ -174,6 +175,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('große, lange Screenshots',	'screenshots',	'Tutorial um große, lange Screenshots zu erstellen.',	'Donnerstaender',	'screenshots.png',	'https://pr0gramm.com/new/1579819'),
 ('Scribus Tutorial',	'scribus',	'Anleitung zum Erstellen von Posts mittels Scribus.',	'Retrowinger',	'scribus.png',	'https://pr0gramm.com/new/3156775'),
 ('erweiterte Suche',	'suche',	'Die erweiterte pr0gramm-Suche.',	'pr0gramm',	'suche.png',	'https://pr0gramm.com/new/2782197'),
+('Themes für Firefox',	'themes',	'Firefox Themes in den bewährten pr0gramm Farben.',	'J4it',	'themes.png',	'https://addons.mozilla.org/de/firefox/collections/17356040/pr0-Themes/'),
 ('Thumbnail mit Rahmen',	'thumbnails',	'Anleitung für schöne Vorschaubildchen mit Rahmen.',	'Retrowinger',	'thumbnails.png',	'https://pr0gramm.com/new/3295515'),
 ('Tierduden v4',	'tierduden',	'Der pr0gramm Tierduden ist eine Aufstellung aller Kadsen, Kefer und .EXEn',	'Unbefriedigend',	'tierduden.png',	'https://pr0gramm.com/new/1755191'),
 ('text2speech Tutorial',	'tts',	'Text2Speech / Computerstimme für OC-Videos',	'qbl',	'tts.png',	'https://pr0gramm.com/new/1947058'),
@@ -181,4 +183,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2022-06-11 23:09:34
+-- 2022-06-11 23:13:25
