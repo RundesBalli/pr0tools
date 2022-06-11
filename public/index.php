@@ -76,5 +76,37 @@ if(mysqli_num_rows($result) != 0) {
  */
 $templatefile = __DIR__.DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."template.tpl";
 $fp = fopen($templatefile, "r");
-echo preg_replace(array("/{TITLE}/im", "/{NAV}/im", "/{CONTENT}/im"), array(($title == "" ? "" : $title." - "), $nav, $content), fread($fp, filesize($templatefile)));
+$output = preg_replace(
+  array(
+    "/{TITLE}/im",
+    "/{NAV}/im",
+    "/{CONTENT}/im"
+  ),
+  array(
+    ($title == "" ? "" : $title." - "),
+    $nav,
+    $content
+  ),
+  fread($fp, filesize($templatefile))
+);
+fclose($fp);
+
+/**
+ * Tidy HTML Output
+ * @see https://gist.github.com/RundesBalli/a5d20a8c92a9a004803980654e638cbb
+ * @see https://api.html-tidy.org/tidy/quickref_5.6.0.html
+ */
+
+$tidyOptions = array(
+  'indent' => TRUE,
+  'output-xhtml' => TRUE,
+  'wrap' => 200,
+  'newline' => 'LF', /* LF = \n */
+  'output-encoding' => 'utf8',
+  'drop-empty-elements' => FALSE /* e.g. for placeholders */
+);
+
+$tidy = tidy_parse_string($output, $tidyOptions, 'UTF8');
+tidy_clean_repair($tidy);
+echo $tidy;
 ?>
