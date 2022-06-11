@@ -42,7 +42,7 @@ $pageArray = array(
   'imprint'        => 'imprint.php',
 
   /* Seiten zur Ansicht der Kategorien und Einträge */
-  'showcategory'   => 'showcategory.php',
+  'showCategory'   => 'showCategory.php',
   'all'            => 'all.php',
 
   /* Fehlerseiten */
