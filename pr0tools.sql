@@ -62,6 +62,7 @@ INSERT INTO `category_items` (`category`, `item`, `sortIndex`) VALUES
 ('nice-to-know',	'bwcalc',	0),
 ('nice-to-know',	'discord',	0),
 ('nice-to-know',	'eckdaten',	0),
+('nice-to-know',	'fitImages',	0),
 ('nice-to-know',	'gangsign',	0),
 ('nice-to-know',	'pr0wiki',	0),
 ('nice-to-know',	'rueckwaertssuche',	0),
@@ -147,6 +148,7 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('BadewannenCalculator',	'bwcalc',	'Der praktische Rechner zum Umrechnen gemäß pr0-Norm 1.',	'ufop',	'badewannencalculator.png',	'http://badewannencalculator.de/'),
 ('Discord',	'discord',	'Der offizielle pr0gramm-Discordserver',	'pr0gramm',	'discord.png',	'https://discord.gg/pr0'),
 ('Eckdaten',	'eckdaten',	'Eckdaten für Textposts',	'holzmaster',	'eckdaten.png',	'https://holzmaster.github.io/userscripts/eckdaten/'),
+('Bilder Scaling Userscript',	'fitImages',	'Passt auf Tastendruck die Höhe des angezeigten Bildes an und macht es so möglich erwas höhere Bilder auf kleineren Monitoren zu anzuschauen ohne zu scrollen.',	'openssl',	'fitImages.png',	'https://pr0gramm.com/new/3145896'),
 ('Flatterfogel',	'flatterfogel',	'Ein Flappybird-Klon als pr0-Version',	'C0dingschmuser',	'flatterfogel.png',	'https://pr0gramm.com/new/2230627'),
 ('Gangsign 2.0',	'gangsign',	'Das pr0-Gangsign wie es sein sollte.',	'l00tSpastille',	'gangsign.png',	'https://pr0gramm.com/new/1500962'),
 ('GuessTheTag',	'guess-the-tag',	'GuessTheTag ist ein Tagratespiel, bei dem man von einem Post den korrekten Tag erraten muss.',	'C0dingschmuser',	'guess-the-tag.png',	'https://pr0gramm.com/new/3126416'),
@@ -179,4 +181,4 @@ INSERT INTO `items` (`title`, `shortTitle`, `description`, `author`, `thumb`, `u
 ('w0chenstatistik',	'w0chenstatistik',	'Die Wochenstatistik. Immer Montags um 21:00 Uhr.',	'DerpyDerp',	'w0chenstatistik.png',	'https://pr0gramm.com/user/DerpyDerp/uploads/w0chenstatistik'),
 ('z0cken.com',	'z0cken',	'Hinter z0cken.com steckt ein Projekt von der pr0gramm.com Community für die pr0gramm Community.\r\nDas z0cken Team übernimmt die infrastrukturelle Verwaltung der Server, welche vom jeweiligen Serverteam konfiguriert und geleitet werden.',	'z0cken',	'z0cken.png',	'https://z0cken.com/');
 
--- 2022-04-03 10:23:08
+-- 2022-06-11 23:09:34
