@@ -59,6 +59,7 @@ a {
   color: #75c0c7;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 a:active, a:hover, a:focus {
@@ -186,6 +187,7 @@ h1 .iconright, h2 .iconright, h3 .iconright {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: all 0.3s;
 }
 
 #nav a:hover {
@@ -225,15 +227,16 @@ h1 .iconright, h2 .iconright, h3 .iconright {
 #footer {
   width: 100%;
   background-color: #212121;
-  overflow: hidden;
   text-align: center;
   flex: none;
   padding: 5px 0px;
+  color: #888888;
 }
 
 #footer a {
   color: #888888;
-  text-decoration: none;
+  text-decoration: underline;
+  transition: all 0.3s;
 }
 
 #footer a:hover {
