@@ -11,7 +11,7 @@
 if(!isset($_GET['category']) OR empty(trim($_GET['category']))) {
   http_response_code(404);
   $content.= "<h1>404 - Not Found</h1>";
-  $content.= "<div class='row'>".
+  $content.= "<div class='row center'>".
   "<div class='col-s-12 col-l-12'>Du musst eine Kategorie angeben.</div>".
   "</div>";
 } else {
@@ -32,7 +32,7 @@ if(!isset($_GET['category']) OR empty(trim($_GET['category']))) {
      * Kategorienbeschreibung anzeigen, sofern vorhanden.
      */
     if($row['description'] !== NULL) {
-      $content.= "<div class='row'>".
+      $content.= "<div class='row center'>".
       "<div class='col-s-12 col-l-12'><span class='fas icon'>&#xf10d;</span>".nl2br($row['description'])."</div>".
       "</div>";
     }
@@ -59,14 +59,14 @@ if(!isset($_GET['category']) OR empty(trim($_GET['category']))) {
      */
     http_response_code(404);
     $content.= "<h1>404 - Not Found</h1>";
-    $content.= "<div class='row'>".
+    $content.= "<div class='row center'>".
     "<div class='col-s-12 col-l-12'>Die Kategorie <span class='italic'>".htmlentities($category, ENT_QUOTES)."</span> existiert nicht.</div>".
     "</div>";
   }
 
   $content.= "<div class='spacer-s'></div>";
 
-  $content.= "<div class='row'>".
+  $content.= "<div class='row center'>".
   "<div class='col-s-12 col-l-12'>Dir fehlt eine Verlinkung? <a href='https://pr0gramm.com/inbox/messages/RundesBalli' target='_blank' rel='noopener'>Schreib mir eine PN</a> oder <a href='https://github.com/RundesBalli/pr0tools/issues/new' target='_blank' rel='noopener'>eröffne ein Issue auf Github</a>.</div>".
   "</div>";
 
