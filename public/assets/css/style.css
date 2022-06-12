@@ -232,14 +232,20 @@ h1 .iconright, h2 .iconright, h3 .iconright {
   color: #888888;
 }
 
-#footer a {
-  color: #888888;
-  text-decoration: underline;
-  transition: all 0.3s;
+#footer > span {
+  margin: 0px 10px;
+  display: inline-block;
 }
 
-#footer a:hover {
+#footer > span > a {
+  color: #75c0c7;
+  transition: all 0.3s;
+  padding: 0px 5px;
+}
+
+#footer > span > a:hover, #footer > span > a:focus {
   color: #f2f5f4;
+  text-decoration: none;
 }
 
 /*

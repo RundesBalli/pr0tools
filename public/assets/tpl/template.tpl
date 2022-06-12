@@ -30,9 +30,15 @@ https://github.com/RundesBalli/pr0tools
       {CONTENT}
     </div>
     <div id="footer">
-      Ein Projekt von <a href="https://RundesBalli.com" target="_blank" rel="noopener">RundesBalli</a> - 
-      <a href="https://RundesBalli.com/imprint"><span class="fas icon">&#xf21b;</span>Impressum</a> - 
-      <a href="https://github.com/RundesBalli/pr0tools" target="_blank" rel="noopener"><span class="fab icon">&#xf09b;</span>Github/Sources</a>
+      <span>
+        Ein Projekt von <a href="https://RundesBalli.com" target="_blank" rel="noopener">RundesBalli</a>
+      </span>
+      <span>
+        <a href="https://RundesBalli.com/imprint"><span class="fas icon">&#xf21b;</span>Impressum</a>
+      </span>
+      <span>
+        <a href="https://github.com/RundesBalli/pr0tools" target="_blank" rel="noopener"><span class="fab icon">&#xf09b;</span>Github/Sources</a>
+      </span>
     </div>
   </body>
 </html>
