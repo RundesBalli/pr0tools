@@ -148,6 +148,25 @@ https://fontawesome.com/
   font-family: 'fontawesome-b';
 }
 
+/* Icon Klasse */
+.icon {
+  display: inline;
+  padding: 0px 5px 0px 0px;
+}
+
+.iconright {
+  display: inline;
+  padding: 0px 0px 0px 5px;
+}
+
+h1 .icon, h2 .icon, h3 .icon {
+  padding: 0px 15px 0px 0px;
+}
+
+h1 .iconright, h2 .iconright, h3 .iconright {
+  padding: 0px 0px 0px 15px;
+}
+
 /*
   2. Header
 */
