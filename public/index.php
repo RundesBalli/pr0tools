@@ -5,17 +5,15 @@
  * Eine Sammlung nützlicher Links für das pr0gramm
  * 
  * @author    RundesBalli <webspam@rundesballi.com>
- * @copyright 2019 RundesBalli
- * @version   1.0
- * @license   MIT-License
+ * @copyright 2022 RundesBalli
+ * @version   2.0
  * @see       https://github.com/RundesBalli/pr0tools
  */
 
 /**
- * Einbinden der Konfigurationsdatei sowie der Funktionsdatei
+ * Einbinden des Konfigurations- und Funktionsloaders
  */
-require_once(__DIR__.DIRECTORY_SEPARATOR."inc".DIRECTORY_SEPARATOR."config.php");
-require_once(__DIR__.DIRECTORY_SEPARATOR."inc".DIRECTORY_SEPARATOR."functions.php");
+require_once(__DIR__.DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR."includes".DIRECTORY_SEPARATOR."_loader.php");
 
 /**
  * Initialisieren des Outputs und des Standardtitels
