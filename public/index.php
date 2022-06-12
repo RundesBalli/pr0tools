@@ -77,7 +77,7 @@ if(mysqli_num_rows($result) != 0) {
 /**
  * Templateeinbindung und Einsetzen der Variablen
  */
-$templatefile = __DIR__.DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."template.tpl";
+$templatefile = __DIR__.DIRECTORY_SEPARATOR."assets".DIRECTORY_SEPARATOR."tpl".DIRECTORY_SEPARATOR."template.tpl";
 $fp = fopen($templatefile, "r");
 $output = preg_replace(
   array(
