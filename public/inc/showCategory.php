@@ -63,5 +63,13 @@ if(!isset($_GET['category']) OR empty(trim($_GET['category']))) {
     "<div class='col-s-12 col-l-12'>Die Kategorie <span class='italic'>".htmlentities($category, ENT_QUOTES)."</span> existiert nicht.</div>".
     "</div>";
   }
+
+  $content.= "<div class='spacer-s'></div>";
+
+  $content.= "<div class='row'>".
+  "<div class='col-s-12 col-l-12'>Dir fehlt eine Verlinkung? <a href='https://pr0gramm.com/inbox/messages/RundesBalli' target='_blank' rel='noopener'>Schreib mir eine PN</a> oder <a href='https://github.com/RundesBalli/pr0tools/issues/new' target='_blank' rel='noopener'>eröffne ein Issue auf Github</a>.</div>".
+  "</div>";
+
+  $content.= "<div class='spacer-m'></div>";
 }
 ?>
