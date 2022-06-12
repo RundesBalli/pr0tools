@@ -66,8 +66,8 @@ a:active, a:hover, a:focus {
   text-decoration: underline;
 }
 
-.warn {
-  color: #c52b2f;
+h1, h2, h3 {
+  text-align: center;
 }
 
 .highlight {
@@ -82,24 +82,12 @@ a:active, a:hover, a:focus {
   font-style: italic;
 }
 
-.underline {
-  text-decoration: underline;
-}
-
 .center {
   text-align: center;
 }
 
-.left {
-  float: left;
-}
-
 .right {
   float: right;
-}
-
-.clear {
-  clear: both;
 }
 
 .bigger {
@@ -175,11 +163,6 @@ h1 .iconright, h2 .iconright, h3 .iconright {
   flex: none;
   text-align: center;
   margin: 15px auto 10px;
-}
-
-#header .info {
-  font-family: monospace;
-  font-size: 14px;
 }
 
 /*
