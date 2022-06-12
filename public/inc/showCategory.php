@@ -43,11 +43,11 @@ if(!isset($_GET['category']) OR empty(trim($_GET['category']))) {
     $result = mysqli_query($dbl, "SELECT `items`.* FROM `category_items` JOIN `items` ON `category_items`.`item` = `items`.`shortTitle` WHERE `category`='".$category."' ORDER BY `category_items`.`sortindex` ASC, `items`.`title` ASC") OR DIE(MYSQLI_ERROR($dbl));
     while($row = mysqli_fetch_array($result)) {
       $content.= "<div class='row item hover'>".
-      "<div class='col-s-12 col-l-3'><a href='".$row['url']."' target='_blank' rel='noopener'><img class='thumb' src='/".($row['thumb'] == NULL ? "src/nothumb.png" : "thumbs/".$row['thumb'])."' alt='Bild'></a></div>".
+      "<div class='col-s-12 col-l-3 center'><a href='".$row['url']."' target='_blank' rel='noopener'><img class='thumb' src='/".($row['thumb'] == NULL ? "src/nothumb.png" : "thumbs/".$row['thumb'])."' alt='Bild'></a></div>".
       "<div class='col-s-12 col-l-9'>".
       "<div class='row'>".
-      "<div class='col-s-12 col-l-12 bigger'><span class='bold highlight'>".$row['title']."</span> <span class='italic'>von ".($row['author'] == NULL ? "unbekannt" : "<a href='https://pr0gramm.com/user/".$row['author']."' target='_blank' rel='noopener'>".$row['author']."</a>")."</span><span class='right'><a href='".$row['url']."' target='_blank' rel='noopener'><span class='fas'>&#xf35d;</span> zur Seite</a></span></div>".
-      "<div class='col-s-12 col-l-12'><span class='fas'>&#xf10d;</span> ".($row['description'] == NULL ? "<span class='italic'>Keine Beschreibung vorhanden</span>" : nl2br($row['description']))."</div>".
+      "<div class='col-s-12 col-l-12 bigger'><span class='bold highlight'>".$row['title']."</span> <span class='italic'>von ".($row['author'] == NULL ? "unbekannt" : "<a href='https://pr0gramm.com/user/".$row['author']."' target='_blank' rel='noopener'>".$row['author']."</a>")."</span><span class='right'><a href='".$row['url']."' target='_blank' rel='noopener'>zur Seite<span class='fas iconright'>&#xf35d;</span></a></span></div>".
+      "<div class='col-s-12 col-l-12'><span class='fas icon'>&#xf10d;</span>".($row['description'] == NULL ? "<span class='italic'>Keine Beschreibung vorhanden</span>" : nl2br($row['description']))."</div>".
       "</div>".
       "</div>".
       "</div>";
