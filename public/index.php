@@ -24,11 +24,10 @@ $title = "";
 /**
  * Herausfinden welche Seite angefordert wurde
  */
-if(!isset($_GET['p']) OR empty($_GET['p'])) {
+if((!isset($_GET['page']) OR empty($_GET['page'])) OR preg_match("/([a-z-\d]+)/i", $_GET['page'], $pageMatch) !== 1) {
   $getp = "start";
 } else {
-  preg_match("/([\d\w-]+)/i", $_GET['p'], $match);
-  $getp = $match[1];
+  $getp = $pageMatch[1];
 }
 
 /**
@@ -52,9 +51,9 @@ $pageArray = array(
  * Prüfung ob die Unterseite im Array existiert, falls nicht 404
  */
 if(isset($pageArray[$getp])) {
-  require_once(__DIR__.DIRECTORY_SEPARATOR."inc".DIRECTORY_SEPARATOR.$pageArray[$getp]);
+  require_once(PAGE_INCLUDE_DIR.$pageArray[$getp]);
 } else {
-  require_once(__DIR__.DIRECTORY_SEPARATOR."inc".DIRECTORY_SEPARATOR."404.php");
+  require_once(PAGE_INCLUDE_DIR."404.php");
 }
 
 /**
