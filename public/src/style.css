@@ -163,15 +163,6 @@ https://fontawesome.com/
   font-size: 14px;
 }
 
-#header a {
-  color: #75c0c7;
-  text-decoration: none;
-}
-
-#header a:hover {
-  color: #f2f5f4;
-}
-
 /*
   3. Navigation
 */
@@ -323,10 +314,6 @@ https://fontawesome.com/
 
 .spacer-l {
   height: 50px;
-}
-
-.description {
-  border-left: 5px solid #444444;
 }
 
 .item {
