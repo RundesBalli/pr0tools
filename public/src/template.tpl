@@ -30,9 +30,9 @@ https://github.com/RundesBalli/pr0tools
       {CONTENT}
     </div>
     <div id="footer">
-      Nach einer Idee von <a href="https://pr0gramm.com/user/yys" target="_blank" rel="noopener">yys</a>, betrieben von <a href="https://RundesBalli.com" target="_blank" rel="noopener">RundesBalli</a> - 
-      <a href="/imprint"><span class="fas">&#xf21b;</span>&nbsp;Impressum</a> - 
-      <a href="https://github.com/RundesBalli/pr0tools" target="_blank" rel="noopener"><span class="fab">&#xf09b;</span>&nbsp;Github</a>
+      Ein Projekt von <a href="https://RundesBalli.com" target="_blank" rel="noopener">RundesBalli</a> - 
+      <a href="https://RundesBalli.com/imprint"><span class="fas icon">&#xf21b;</span>Impressum</a> - 
+      <a href="https://github.com/RundesBalli/pr0tools" target="_blank" rel="noopener"><span class="fab icon">&#xf09b;</span>Github/Sources</a>
     </div>
   </body>
 </html>
