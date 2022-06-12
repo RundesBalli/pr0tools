@@ -18,7 +18,6 @@ Contents:
 3. Navigation
 4. Footer
 5. Grid
-6. Forms
 */
 
 /*
@@ -277,6 +276,14 @@ h1 .iconright, h2 .iconright, h3 .iconright {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+
+  .row {
+    margin-bottom: 14px;
+  }
+
+  .mobileCentered {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -296,6 +303,10 @@ h1 .iconright, h2 .iconright, h3 .iconright {
   .col-l-10 {width: 83.33%;}
   .col-l-11 {width: 91.66%;}
   .col-l-12 {width: 100%;}
+
+  .alignRightNotMobile {
+    text-align: right;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
