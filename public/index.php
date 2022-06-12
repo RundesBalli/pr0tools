@@ -68,7 +68,7 @@ $nav.= "<a href='/all'".($getp == "all" ? $a : NULL).">Alles</a>";
 $result = mysqli_query($dbl, "SELECT `title`, `shortTitle` FROM `categories` ORDER BY `sortindex` ASC, `title` ASC") OR DIE(MYSQLI_ERROR($dbl));
 if(mysqli_num_rows($result) != 0) {
   while($row = mysqli_fetch_array($result)) {
-    $nav.= "<a href='/category/".$row['shortTitle']."'".(($getp == "showCategory" AND (!empty($_GET['category']) AND $_GET['category'] == $row['shortTitle'])) ? $a : NULL).">".$row['title']."</a>";
+    $nav.= "<a href='/category/".output($row['shortTitle'])."'".(($getp == "showCategory" AND (!empty($_GET['category']) AND $_GET['category'] == $row['shortTitle'])) ? $a : NULL).">".output($row['title'])."</a>";
   }
 }
 
