@@ -24,7 +24,7 @@ https://github.com/RundesBalli/pr0tools
       <a href="/"><img src="/src/header.png" alt="Header"></a>
     </div>
     <div id="nav" class="nav">
-      <a class="icon" id="toggle">&#x2630;</a><a href="/">Startseite</a><a href="/all">Alles</a>{NAV}
+      <a class="icon" id="toggle">&#x2630;</a>{NAV}
     </div>
     <div id="wrapper">
       {CONTENT}

@@ -61,13 +61,16 @@ if(isset($pageArray[$getp])) {
 
 /**
  * Navigation
- * Hinweis: Die Startseitenverlinkung, "Alles" und das Toggle-Element sind im Template enthalten.
+ * Das Toggle Element befindet sich im Template
  */
-$nav = "";
+$a = " class='active'";
+$nav = "<a href='/'".($getp == "start" ? $a : NULL).">Startseite</a>";
+$nav.= "<a href='/all'".($getp == "all" ? $a : NULL).">Alles</a>";
+
 $result = mysqli_query($dbl, "SELECT `title`, `shortTitle` FROM `categories` ORDER BY `sortindex` ASC, `title` ASC") OR DIE(MYSQLI_ERROR($dbl));
 if(mysqli_num_rows($result) != 0) {
   while($row = mysqli_fetch_array($result)) {
-    $nav.= "<a href='/category/".$row['shortTitle']."'>".$row['title']."</a>";
+    $nav.= "<a href='/category/".$row['shortTitle']."'".(($getp == "showCategory" AND (!empty($_GET['category']) AND $_GET['category'] == $row['shortTitle'])) ? $a : NULL).">".$row['title']."</a>";
   }
 }
 

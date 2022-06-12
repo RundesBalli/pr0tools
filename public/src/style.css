@@ -210,8 +210,7 @@ h1 .iconright, h2 .iconright, h3 .iconright {
 }
 
 #nav a.active {
-  background-color: #888888;
-  color: #161618;
+  color: #ee4d2e;
 }
 
 #nav a.icon {
