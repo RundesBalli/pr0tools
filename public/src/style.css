@@ -294,6 +294,16 @@ https://fontawesome.com/
   .col-l-12 {width: 100%;}
 }
 
+@media only screen and (max-width: 1200px) {
+  #wrapper, #header {
+    padding: 0px 10px;
+  }
+
+  #footer {
+    padding: 5px 10px;
+  }
+}
+
 .row::after {
   content: "";
   clear: both;
