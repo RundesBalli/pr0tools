@@ -11,14 +11,6 @@ DROP DATABASE IF EXISTS `pr0tools`;
 CREATE DATABASE `pr0tools` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 USE `pr0tools`;
 
-DELIMITER ;;
-
-CREATE EVENT `Automatisches Löschen der Favoriten` ON SCHEDULE EVERY 1 HOUR STARTS '2019-09-14 09:21:51' ON COMPLETION NOT PRESERVE ENABLE COMMENT 'Löscht Favoriten, die 20 Wochen nicht genutzt wurden.' DO DELETE FROM `fav` WHERE `lastused` < DATE_SUB(NOW(), INTERVAL 20 WEEK);;
-
-CREATE EVENT `Automatisches Löschen leerer Favoriteneinträge.` ON SCHEDULE EVERY 10 MINUTE STARTS '2019-09-14 15:48:27' ON COMPLETION NOT PRESERVE ENABLE COMMENT 'Löscht Favoriteneinträge, die angelegt aber nie befüllt wurden.' DO DELETE FROM `fav` WHERE `lastused` < DATE_SUB(NOW(), INTERVAL 1 HOUR) AND NOT EXISTS (SELECT * FROM `fav_items` WHERE `fav_items`.`key` = `fav`.`key`);;
-
-DELIMITER ;
-
 DROP TABLE IF EXISTS `categories`;
 CREATE TABLE `categories` (
   `title` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Angezeigter Name',
