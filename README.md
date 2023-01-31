@@ -9,5 +9,5 @@ Wenn du ein Projekt auf pr0.tools sehen willst, dann erstell ein [Issue](https:/
 Nach einer Projektidee von [yys](https://pr0gramm.com/user/yys). pr0tools wurde am 22. Juni 2019 von mir - RundesBalli - übernommen und überarbeitet.
 
 ## Quellenangaben
-- Headergrafik und Favicon von [Soldiermelly](https://pr0gramm.com/user/Soldiermelly)
+- Headergrafik und Favicon von Soldiermelly
 - Icons von [Fontawesome](https://fontawesome.com)
