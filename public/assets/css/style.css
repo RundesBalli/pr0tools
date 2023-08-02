@@ -86,40 +86,22 @@ a:active, a:hover {
   color: var(--linkHover);
 }
 
-h1, h2, h3 {
+h2 {
   word-break: break-word;
-}
-
-h1 {
-  font-size: calc(var(--fontSize) * 4);
-  margin: calc(var(--fontSize) * 3.5) 0 calc(var(--fontSize) * 0.7);
 }
 
 h2 {
   font-size: calc(var(--fontSize) * 2.5);
-  margin: calc(var(--fontSize) * 2.5) 0 calc(var(--fontSize) * 0.5);
+  margin: calc(var(--fontSize) * 7) 0 calc(var(--fontSize) * 2.5);
 }
 
-h3 {
-  font-size: calc(var(--fontSize) * 1.8);
-  margin: calc(var(--fontSize) * 1.5) 0 calc(var(--fontSize) * 0.35);
+h2:first-of-type {
+  margin: calc(var(--fontSize) * 3) 0 calc(var(--fontSize) * 2.5);
 }
 
 @media only screen and (max-width: 600px) {
-  h1, h2, h3 {
-    text-align: center;
-  }
-
-  h1 {
-    margin: calc(var(--fontSize) * 2.5) 0 calc(var(--fontSize) * 1.7);
-  }
-  
   h2 {
     margin: calc(var(--fontSize) * 2.2) 0 calc(var(--fontSize) * 1.5);
-  }
-  
-  h3 {
-    margin: calc(var(--fontSize) * 1.85) 0 calc(var(--fontSize) * 1.35);
   }
 }
 
