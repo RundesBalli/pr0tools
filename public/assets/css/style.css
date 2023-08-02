@@ -21,6 +21,7 @@
   --footerBgColor: #212121;
   --footerFontColor: #888888;
   --boxColor: #212121;
+  --boxColorHover: #444444;
   --boxBorderColor: rgba(242, 245, 244, 0.1);
   --highlightColor: #ee4d2e;
   --shadowColor: rgba(0, 0, 0, 0.8);
@@ -149,6 +150,9 @@ p:first-of-type {
   }
 }
 
+/**
+ * Buttons
+ */
 #scrollToTop {
   background-color: var(--boxColor);
   border: 2px solid var(--boxBorderColor);
@@ -157,7 +161,7 @@ p:first-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: calc(var(--fontSize) * 0.5);
+  bottom: calc(var(--fontSize) * 2.5);
   right: calc(var(--fontSize) * 0.5);
   width: calc(var(--fontSize) * 2.5);
   height: calc(var(--fontSize) * 2.5);
@@ -166,6 +170,32 @@ p:first-of-type {
 
 #scrollToTop > span {
   padding: 0;
+}
+
+#navigationButtons {
+  display: block;
+  text-align: center;
+}
+
+#navigationButtons > a {
+  background-color: var(--boxColor);
+  border-radius: calc(var(--fontSize) * 0.6);
+  border: 2px solid var(--boxBorderColor);
+  display: inline-block;
+  color: var(--fontColor);
+  padding: calc(var(--fontSize) * 0.6) calc(var(--fontSize) * 0.8);
+  text-decoration: none;
+  box-shadow: 5px 5px 5px var(--shadowColor);
+  margin-bottom: var(--fontSize);
+}
+
+#navigationButtons > a:hover {
+  background-color: var(--boxColorHover);
+  transition: all var(--transitionTime);
+}
+
+#navigationButtons > a:not(:last-of-type) {
+  margin-right: var(--fontSize);
 }
 
 /**
