@@ -46,5 +46,6 @@ https://github.com/RundesBalli/pr0tools
         <a href="https://github.com/RundesBalli/pr0tools" target="_blank" rel="noopener"><span class="fab icon">&#xf09b;</span>Github</a>
       </div>
     </div>
+    <a href="#" id="scrollToTop"><span class="fas icon">&#xf077;</span></a>
   </body>
 </html>

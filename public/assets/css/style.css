@@ -149,6 +149,25 @@ p:first-of-type {
   }
 }
 
+#scrollToTop {
+  background-color: var(--boxColor);
+  border: 2px solid var(--boxBorderColor);
+  color: var(--fontColor);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: calc(var(--fontSize) * 0.5);
+  right: calc(var(--fontSize) * 0.5);
+  width: calc(var(--fontSize) * 2.5);
+  height: calc(var(--fontSize) * 2.5);
+  border-radius: var(--fontSize);
+}
+
+#scrollToTop > span {
+  padding: 0;
+}
+
 /**
  * Items
  */
