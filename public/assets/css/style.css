@@ -1,0 +1,230 @@
+/**
+ * /assets/css/style.css
+ * 
+ * Styles and colors for pr0.tools
+ */
+
+:root {
+  /**
+   * Site
+   */
+  --fontSize: 16px;
+  --transitionTime: 0.3s;
+
+  /**
+   * Colors / Images
+   */
+  --bgColor: url('/assets/images/noise_hex-161618-t50-tS7-bW0-mB-mu1.5-st8_637487e0d51236f56169f5e72cfe3f7b.png') #161618;
+  --fontColor: #f2f5f4;
+  --linkColor: #75c0c7;
+  --linkHover: #f2f5f4;
+  --footerBgColor: #212121;
+  --footerFontColor: #888888;
+  --boxColor: #212121;
+  --highlightColor: #ee4d2e;
+  --shadowColor: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --fontSize: 14px;
+  }
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/Roboto-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  text-shadow: 1px 1px 1px var(--shadowColor);
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background: var(--bgColor);
+  color: var(--fontColor);
+  font-size: var(--fontSize);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active, a:hover {
+  color: var(--linkHover);
+}
+
+h1, h2, h3 {
+  word-break: break-word;
+}
+
+h1 {
+  font-size: calc(var(--fontSize) * 4);
+  margin: calc(var(--fontSize) * 3.5) 0 calc(var(--fontSize) * 0.7);
+}
+
+h2 {
+  font-size: calc(var(--fontSize) * 2.5);
+  margin: calc(var(--fontSize) * 2.5) 0 calc(var(--fontSize) * 0.5);
+}
+
+h3 {
+  font-size: calc(var(--fontSize) * 1.8);
+  margin: calc(var(--fontSize) * 1.5) 0 calc(var(--fontSize) * 0.35);
+}
+
+@media only screen and (max-width: 600px) {
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  h1 {
+    margin: calc(var(--fontSize) * 2.5) 0 calc(var(--fontSize) * 1.7);
+  }
+  
+  h2 {
+    margin: calc(var(--fontSize) * 2.2) 0 calc(var(--fontSize) * 1.5);
+  }
+  
+  h3 {
+    margin: calc(var(--fontSize) * 1.85) 0 calc(var(--fontSize) * 1.35);
+  }
+}
+
+.smaller {
+  font-size: calc(var(--fontSize) * 0.7);
+}
+
+/**
+ * Header
+ */
+#header {
+  flex: none;
+  text-align: center;
+  margin: 15px auto 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    padding: 0px var(--fontSize);
+  }
+}
+
+/**
+ * Content
+ */
+#content {
+  width: 100%;
+  flex: auto;
+  margin: calc(var(--fontSize) * 1.5) 0px calc(var(--fontSize) * 2.5);
+  padding: 0px var(--fontSize);
+}
+
+@media only screen and (max-width: 1500px) {
+  #content {
+    margin: calc(var(--fontSize) * 3) 0px calc(var(--fontSize) * 2.5);
+  }
+}
+
+/**
+ * Items
+ */
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  background-color: var(--boxColor);
+  width: 300px;
+  margin: calc(var(--fontSize) * 0.7);
+  padding: 0px;
+  border-radius: var(--fontSize);
+  border: 1px solid var(--fontColor);
+  box-shadow: 2px 2px 5px var(--shadowColor);
+  overflow: hidden;
+}
+
+.item > .imgLink > img {
+  width: 100%;
+}
+
+.item > .infos {
+  padding: calc(var(--fontSize) * 1.5);
+  text-align: justify;
+}
+
+.item > .infos > .project {
+  text-align: center;
+  margin-bottom: var(--fontSize);
+}
+
+.item > .infos > .project > .name {
+  color: var(--highlightColor);
+  font-size: calc(var(--fontSize) * 1.4);
+}
+
+/**
+ * Footer
+ */
+#footer {
+  width: 100%;
+  background-color: var(--footerBgColor);
+  text-align: center;
+  color: var(--footerFontColor);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: calc(var(--fontSize) * 0.3) 0px;
+  font-size: calc(var(--fontSize) * 0.8);
+  box-shadow: 0px -1px 6px var(--shadowColor);
+}
+
+#footer > div {
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+#footer > div > a {
+  transition: all var(--transitionTime);
+  padding:  0px calc(var(--fontSize) * 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+  #footer > div {
+    display: block;
+  }
+}

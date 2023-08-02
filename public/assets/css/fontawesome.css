@@ -1,0 +1,75 @@
+/*
+  FontAwesome
+  https://fontawesome.com
+*/
+
+/**
+ * Icon classes
+ */
+.icon {
+  display: inline;
+  padding: 0px 5px 0px 0px;
+  user-select: none;
+}
+
+.iconright {
+  display: inline;
+  padding: 0px 0px 0px 5px;
+  user-select: none;
+}
+
+h1 .icon, h2 .icon, h3 .icon {
+  padding: 0px 15px 0px 0px;
+}
+
+h1 .iconright, h2 .iconright, h3 .iconright {
+  padding: 0px 0px 0px 15px;
+}
+
+/**
+ * Regular
+ */
+@font-face {
+  font-family: 'fontawesome-r';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/assets/fonts/fa-regular-400.woff2") format("woff2"), url("/assets/fonts/fa-regular-400.ttf") format("truetype");
+}
+
+.far {
+  font-family: 'fontawesome-r';
+  font-weight: 400;
+}
+
+/**
+ * Solid
+ */
+@font-face {
+  font-family: 'fontawesome-s';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("/assets/fonts/fa-solid-900.woff2") format("woff2"), url("/assets/fonts/fa-solid-900.ttf") format("truetype");
+}
+
+.fas {
+  font-family: 'fontawesome-s';
+  font-weight: 900;
+}
+
+/**
+ * Brands
+ */
+@font-face {
+  font-family: 'fontawesome-b';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/assets/fonts/fa-brands-400.woff2") format("woff2"), url("/assets/fonts/fa-brands-400.ttf") format("truetype");
+}
+
+.fab {
+  font-family: 'fontawesome-b';
+  font-weight: 400;
+}
