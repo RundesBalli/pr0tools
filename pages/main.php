@@ -12,6 +12,8 @@ $content.= '<p><span class="fas icon">&#xf05a;</span>pr0.tools ist eine Plattfor
 
 $content.= '<p><span class="fas icon">&#xf055;</span>Sollte dir ein Eintrag fehlen, dann <a href="https://pr0gramm.com/inbox/messages/RundesBalli" target="_blank" rel="noopener">schreib mir eine PN</a>, <a href="https://github.com/RundesBalli/pr0tools/issues/new" target="_blank" rel="noopener">eröffne ein Issue</a> oder <a href="https://github.com/RundesBalli/pr0tools#mitwirken" target="_blank" rel="noopener">füge es selbst hinzu</a>.</p>';
 
+$content.= '<p><span class="fas icon">&#xf796;</span>Du möchtest eine *.pr0.tools Subdomain für dein Projekt? Dann <a href="https://pr0gramm.com/inbox/messages/RundesBalli" target="_blank" rel="noopener">schreib mir eine PN</a>!</p>';
+
 /**
  * Iterate through categories and items
  */
