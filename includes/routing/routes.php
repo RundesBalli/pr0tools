@@ -10,5 +10,6 @@ $routes = [
   /**
    * Pages
    */
+  'main' => 'main.php'
 ];
 ?>
