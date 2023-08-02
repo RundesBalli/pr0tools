@@ -219,6 +219,40 @@ $ci = [
         'author' => 'AlfonsoHater',
         'description' => 'Erinnerungsbot für automatische Erinnerungen per PN'
       ],
+      [
+        'url' => 'https://pr0gramm.com/new/4625113',
+        'thumb' => 'sauce',
+        'name' => '@Sauce',
+        'author' => 'Helix',
+        'description' => 'Erkennt Musik in Videos und postet Titel und Interpret'
+      ],
+      [
+        'url' => 'https://pr0gramm.com/new/5698858',
+        'thumb' => 'pr0lator',
+        'name' => '@pr0lator',
+        'author' => 'Clusterzx',
+        'description' => 'Übersetzung von Videos'
+      ],
+      [
+        'url' => 'https://pr0gramm.com/new/5780324',
+        'thumb' => 'txt',
+        'name' => '@txt',
+        'author' => 'KaiserVonChina',
+        'description' => 'Auslesen von Texten einer Nachrichtenseite'
+      ],
+      [
+        'url' => 'https://pr0gramm.com/new/5783149',
+        'thumb' => 'tldr',
+        'name' => '@tldr',
+        'author' => 'PimmelmannJones',
+        'description' => 'Zusammenfassung eines vorstehenden Textes'
+      ],
+      [
+        'url' => 'https://pr0gramm.com/new/5784369',
+        'thumb' => 'linkers',
+        'name' => '@linkers',
+        'author' => 'Kavatch',
+        'description' => 'Entfernung lästiger Tracking Parameter in Links'
       ],
     ]
   ],
