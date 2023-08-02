@@ -64,6 +64,10 @@ html, body {
   height: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--bgColor);
   color: var(--fontColor);
