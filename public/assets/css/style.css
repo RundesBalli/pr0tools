@@ -170,7 +170,7 @@ p:first-of-type {
 
 .item > .infos {
   padding: calc(var(--fontSize) * 1.5);
-  text-align: justify;
+  text-align: left;
 }
 
 .item > .infos > .project {
