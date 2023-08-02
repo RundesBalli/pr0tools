@@ -57,7 +57,7 @@ $ci = [
         'name' => 'Scribus Tutorial',
         'author' => 'Retrowinger',
         'description' => 'Anleitung zum Erstellen von Posts mittels Scribus'
-      ]
+      ],
     ]
   ],
   [
@@ -154,21 +154,21 @@ $ci = [
         'thumb' => 'fitImages',
         'name' => 'Bilder Scaling Userscript',
         'author' => 'openssl',
-        'description' => 'Passt auf Tastendruck die Höhe des angezeigten Bildes an und macht es so möglich erwas höhere Bilder auf kleineren Monitoren zu anzuschauen ohne zu scrollen.'
+        'description' => 'Passt auf Tastendruck die Höhe des angezeigten Bildes an und macht es so möglich erwas höhere Bilder auf kleineren Monitoren zu anzuschauen ohne zu scrollen'
       ],
       [
         'url' => 'https://pr0gramm.com/new/3568968',
         'thumb' => 'sch0ngesehen',
         'name' => 'sch0ngesehen',
         'author' => 'Mwni',
-        'description' => 'Ein Browseraddon um anzuzeigen, welche Posts man bereits gesehen hat.'
+        'description' => 'Ein Browseraddon um anzuzeigen, welche Posts man bereits gesehen hat'
       ],
       [
         'url' => 'https://addons.mozilla.org/de/firefox/collections/17356040/pr0-Themes/',
         'thumb' => 'themes',
         'name' => 'Themes für Firefox',
         'author' => 'J4it',
-        'description' => 'Firefox Themes in den bewährten pr0gramm Farben.'
+        'description' => 'Firefox Themes in den bewährten pr0gramm Farben'
       ],
     ]
   ],
@@ -196,14 +196,14 @@ $ci = [
         'thumb' => 'pr0keys',
         'name' => 'pr0keys',
         'author' => 'blussischmuser',
-        'description' => 'Auf pr0keys werden Steam-Keys für Spiele und andere Apps, die nicht mehr benötigt werden, geteilt.'
+        'description' => 'Auf pr0keys werden Steam-Keys für Spiele und andere Apps, die nicht mehr benötigt werden, geteilt'
       ],
       [
         'url' => 'http://badewannencalculator.de/',
         'thumb' => 'badewannencalculator',
         'name' => 'BadewannenCalculator',
         'author' => 'ufop',
-        'description' => 'Der praktische Rechner zum Umrechnen gemäß pr0-Norm 1.'
+        'description' => 'Der praktische Rechner zum Umrechnen gemäß pr0-Norm 1'
       ],
     ]
   ],
