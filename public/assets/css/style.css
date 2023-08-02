@@ -109,6 +109,14 @@ h2:first-of-type {
   font-size: calc(var(--fontSize) * 0.7);
 }
 
+p {
+  margin: calc(var(--fontSize) * 3) 0;
+}
+
+p:first-of-type {
+  margin: calc(var(--fontSize) * 1) 0 calc(var(--fontSize) * 3);
+}
+
 /**
  * Header
  */
