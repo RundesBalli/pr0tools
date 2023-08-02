@@ -21,6 +21,7 @@
   --footerBgColor: #212121;
   --footerFontColor: #888888;
   --boxColor: #212121;
+  --boxBorderColor: rgba(242, 245, 244, 0.1);
   --highlightColor: #ee4d2e;
   --shadowColor: rgba(0, 0, 0, 0.8);
 }
@@ -163,7 +164,7 @@ p:first-of-type {
   margin: calc(var(--fontSize) * 0.7);
   padding: 0px;
   border-radius: var(--fontSize);
-  border: 1px solid var(--fontColor);
+  border: 2px solid var(--boxBorderColor);
   box-shadow: 5px 5px 5px var(--shadowColor);
   overflow: hidden;
 }
