@@ -215,9 +215,10 @@ $ci = [
       [
         'url' => 'https://pr0gramm.com/new/5376709',
         'thumb' => 'vergissmichnicht',
-        'name' => 'Vergiss mich nicht',
+        'name' => '@vergissmichnicht',
         'author' => 'AlfonsoHater',
-        'description' => 'Erinnerungsbot für automatische Erinnerungen per PN.'
+        'description' => 'Erinnerungsbot für automatische Erinnerungen per PN'
+      ],
       ],
     ]
   ],
