@@ -8,7 +8,7 @@ https://github.com/RundesBalli/pr0tools
   <head>
     <title>pr0.tools</title>
     <meta charset="utf-8">
-    <meta name="description" content="pr0gramm Linksammlung"/>
+    <meta name="description" content="pr0gramm Linksammlung über nützliche Tools, Communityprojekte, Bots und mehr!"/>
     <meta name="robots" content="index, follow"/>
     <meta name="keywords" content="pr0gramm, Linksammlung, Tools, Projekte"/>
     <meta name="author" content="RundesBalli"/>
@@ -19,14 +19,14 @@ https://github.com/RundesBalli/pr0tools
     <meta name="theme-color" content="#161618">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="pr0.tools">
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://pr0.tools">
     <meta property="og:image" content="https://pr0.tools/assets/images/favicon.png">
     <meta property="og:image:secure_url" content="https://pr0.tools/assets/images/favicon.png">
     <meta property="og:image:width" content="256">
     <meta property="og:image:height" content="256">
     <meta property="og:image:alt" content="pr0.tools">
-    <meta property="og:description" content="pr0gramm Linksammlung">
+    <meta property="og:description" content="pr0gramm Linksammlung über nützliche Tools, Communityprojekte, Bots und mehr!">
     <meta property="og:locale" content="de_DE">
     <meta property="og:site_name" content="pr0.tools">
   </head>
