@@ -6,6 +6,11 @@
  */
 
 /**
+ * Items
+ */
+require_once(__DIR__.DIRECTORY_SEPARATOR.'items'.DIRECTORY_SEPARATOR.'items.php');
+
+/**
  * Content generation and router
  */
 require_once(__DIR__.DIRECTORY_SEPARATOR.'templates'.DIRECTORY_SEPARATOR.'readTemplate.php');
