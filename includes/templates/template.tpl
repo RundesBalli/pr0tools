@@ -32,7 +32,7 @@ https://github.com/RundesBalli/pr0tools
   </head>
   <body>
     <div id="header">
-      <img src="/assets/images/header.png" alt="Header">
+      <a href="/"><img src="/assets/images/header.png" alt="Header"></a>
     </div>
     <div id="content">
       {CONTENT}
