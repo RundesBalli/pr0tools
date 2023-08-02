@@ -23,13 +23,13 @@ foreach($ci as $c) {
   foreach($c['items'] as $item) {
     $content.=
     '<div class="item">
-      <a href="'.$item['url'].'" class="itemLink" target="_blank" rel="noopener">
+      <a href="'.$item['url'].'" target="_blank" rel="noopener">
         <img src="/assets/thumbs/'.$item['thumb'].'.png">
       </a>
       <div class="infos">
         <div class="project">
-          <div class="name">'.$item['name'].'</div>
-          <span class="smaller">von <a href="https://pr0gramm.com/user/'.$item['author'].'" class="itemLink" target="_blank" rel="noopener">'.$item['author'].'</a></span>
+          <div class="name"><a href="'.$item['url'].'" target="_blank" rel="noopener">'.$item['name'].'</a></div>
+          <span class="smaller">von <a href="https://pr0gramm.com/user/'.$item['author'].'" target="_blank" rel="noopener">'.$item['author'].'</a></span>
         </div>
         '.nl2br($item['description']).'
       </div>

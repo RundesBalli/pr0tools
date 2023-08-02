@@ -178,10 +178,6 @@ h3 {
   overflow: hidden;
 }
 
-.item > .imgLink > img {
-  width: 100%;
-}
-
 .item > .infos {
   padding: calc(var(--fontSize) * 1.5);
   text-align: justify;
@@ -192,7 +188,7 @@ h3 {
   margin-bottom: var(--fontSize);
 }
 
-.item > .infos > .project > .name {
+.item > .infos > .project > .name > a {
   color: var(--highlightColor);
   font-size: calc(var(--fontSize) * 1.4);
 }
