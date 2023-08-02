@@ -11,7 +11,7 @@
  * @var array
  */
 $ci = [
-  [
+  'creation' => [
     'title' => 'Posterstellung',
     'symbol' => 'f5ae',
     'fa' => 'fas',
@@ -60,7 +60,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'upload' => [
     'title' => 'Hochladen',
     'symbol' => 'f0ee',
     'fa' => 'fas',
@@ -88,7 +88,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'official' => [
     'title' => 'Offizielles',
     'symbol' => 'f120',
     'fa' => 'fas',
@@ -144,7 +144,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'scripts' => [
     'title' => 'Scripts & Addons',
     'symbol' => 'f121',
     'fa' => 'fas',
@@ -186,7 +186,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'community' => [
     'title' => 'Communityprojekte',
     'symbol' => 'f552',
     'fa' => 'fas',
@@ -221,7 +221,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'bots' => [
     'title' => 'Nutzer-Bots',
     'symbol' => 'f544',
     'fa' => 'fas',
@@ -270,7 +270,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'stats' => [
     'title' => 'Statistiken',
     'symbol' => 'f00b',
     'fa' => 'fas',
@@ -291,7 +291,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'niceToKnow' => [
     'title' => 'Gut zu wissen',
     'symbol' => 'f0eb',
     'fa' => 'fas',
@@ -347,7 +347,7 @@ $ci = [
       ],
     ]
   ],
-  [
+  'games' => [
     'title' => 'Spiele',
     'symbol' => 'f11b',
     'fa' => 'fas',
