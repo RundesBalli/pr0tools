@@ -15,10 +15,19 @@ $content.= '<p><span class="fas icon">&#xf055;</span>Sollte dir ein Eintrag fehl
 $content.= '<p><span class="fas icon">&#xf796;</span>Du möchtest eine *.pr0.tools Subdomain für dein Projekt? Dann <a href="https://pr0gramm.com/inbox/messages/RundesBalli" target="_blank" rel="noopener">schreib mir eine PN</a>!</p>';
 
 /**
+ * Buttons
+ */
+$content.= '<div id="navigationButtons">';
+foreach(array_keys($ci) as $key) {
+  $content.= '<a href="#'.$key.'">'.$ci[$key]['title'].'</a>';
+}
+$content.= '</div>';
+
+/**
  * Iterate through categories and items
  */
-foreach($ci as $c) {
-  $content.= '<h2><span class="'.$c['fa'].' icon">&#x'.$c['symbol'].';</span>'.$c['title'].'</h2>'.
+foreach($ci as $key => $c) {
+  $content.= '<h2 id="'.$key.'"><span class="'.$c['fa'].' icon">&#x'.$c['symbol'].';</span>'.$c['title'].'</h2>'.
   '<div class="items">';
 
   /**
