@@ -128,6 +128,20 @@ $ci = [
         'author' => 'pr0gramm',
         'description' => 'Der Infopost zur Rückwärtssuche auf pr0gramm'
       ],
+      [
+        'url' => 'https://discord.gg/mpJ6YYGzBq',
+        'thumb' => 'pr0grammierer',
+        'name' => 'pr0grammierer Discord',
+        'author' => 'pr0gramm',
+        'description' => 'Der offizielle pr0gramm Entwickler Discordserver'
+      ],
+      [
+        'url' => 'https://github.com/pr0gramm-com/api-docs',
+        'thumb' => 'apiDocs',
+        'name' => 'API-Dokumentation',
+        'author' => 'pr0gramm',
+        'description' => 'API Dokumentation für Entwickler'
+      ],
     ]
   ],
   [
