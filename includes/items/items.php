@@ -122,18 +122,18 @@ $ci = [
         'description' => 'Der offizielle pr0gramm Discordserver'
       ],
       [
-        'url' => 'https://pr0gramm.com/new/3323910',
-        'thumb' => 'rueckwaertssuche',
-        'name' => 'Rückwärtssuche',
-        'author' => 'pr0gramm',
-        'description' => 'Der Infopost zur Rückwärtssuche auf pr0gramm'
-      ],
-      [
         'url' => 'https://discord.gg/mpJ6YYGzBq',
         'thumb' => 'pr0grammierer',
         'name' => 'pr0grammierer Discord',
         'author' => 'pr0gramm',
         'description' => 'Der offizielle pr0gramm Entwickler Discordserver'
+      ],
+      [
+        'url' => 'https://pr0gramm.com/new/3323910',
+        'thumb' => 'rueckwaertssuche',
+        'name' => 'Rückwärtssuche',
+        'author' => 'pr0gramm',
+        'description' => 'Der Infopost zur Rückwärtssuche auf pr0gramm'
       ],
       [
         'url' => 'https://github.com/pr0gramm-com/api-docs',
