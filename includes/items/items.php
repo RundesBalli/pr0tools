@@ -129,6 +129,13 @@ $ci = [
         'description' => 'Der offizielle pr0gramm Entwickler Discordserver'
       ],
       [
+        'url' => 'https://pr0gramm.com/search',
+        'thumb' => 'erweiterteSuche',
+        'name' => 'Erweiterte Suche',
+        'author' => 'pr0gramm',
+        'description' => 'Die erweiterte Suche für noch bessere Suchergebnisse'
+      ],
+      [
         'url' => 'https://pr0gramm.com/new/3323910',
         'thumb' => 'rueckwaertssuche',
         'name' => 'Rückwärtssuche',
