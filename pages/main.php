@@ -37,7 +37,7 @@ foreach($ci as $key => $c) {
     $content.=
     '<div class="item">
       <a href="'.$item['url'].'" target="_blank" rel="noopener">
-        <img src="/assets/thumbs/'.$item['thumb'].'.png">
+        <img src="/assets/thumbs/'.$item['thumb'].'.png" alt="'.$item['name'].'">
       </a>
       <div class="infos">
         <div class="project">
