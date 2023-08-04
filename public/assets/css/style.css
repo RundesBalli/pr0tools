@@ -70,6 +70,7 @@ html {
 
 body {
   background: var(--bgColor);
+  background-attachment: fixed;
   color: var(--fontColor);
   font-size: var(--fontSize);
   display: flex;
