@@ -174,7 +174,7 @@ $ci = [
         'url' => 'https://pr0gramm.com/new/3145896',
         'thumb' => 'fitImages',
         'name' => 'Bilder Scaling Userscript',
-        'author' => 'openssl',
+        'author' => 'findus',
         'description' => 'Passt auf Tastendruck die Höhe des angezeigten Bildes an und macht es so möglich erwas höhere Bilder auf kleineren Monitoren zu anzuschauen ohne zu scrollen'
       ],
       [
