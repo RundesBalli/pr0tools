@@ -191,6 +191,13 @@ $ci = [
         'author' => 'J4it',
         'description' => 'Firefox Themes in den bewährten pr0gramm Farben'
       ],
+      [
+        'url' => 'https://github.com/pr0-dev/pr0-tv',
+        'thumb' => 'pr0tv',
+        'name' => 'pr0-TV',
+        'author' => 'pr0gramm',
+        'description' => 'Das Userscript bringt pr0-TV als Feature zurück!'
+      ],
     ]
   ],
   'community' => [
