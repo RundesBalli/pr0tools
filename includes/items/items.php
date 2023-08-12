@@ -195,7 +195,7 @@ $ci = [
         'url' => 'https://github.com/pr0-dev/pr0-tv',
         'thumb' => 'pr0tv',
         'name' => 'pr0-TV',
-        'author' => 'pr0gramm',
+        'author' => 'TheShad0w',
         'description' => 'Das Userscript bringt pr0-TV als Feature zurück!'
       ],
     ]
