@@ -255,13 +255,6 @@ $ci = [
         'description' => 'Erkennt Musik in Videos und postet Titel und Interpret'
       ],
       [
-        'url' => 'https://pr0gramm.com/new/5698858',
-        'thumb' => 'pr0lator',
-        'name' => '@pr0lator',
-        'author' => 'Clusterzx',
-        'description' => 'Übersetzung von Videos'
-      ],
-      [
         'url' => 'https://pr0gramm.com/new/5780324',
         'thumb' => 'txt',
         'name' => '@txt',
