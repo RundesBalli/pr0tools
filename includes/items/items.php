@@ -87,7 +87,7 @@ $ci = [
         'description' => 'Der pr0verter als Offline-Version'
       ],
       [
-        'url' => 'https://pr0gramm.com/top/6014028',
+        'url' => 'https://cr0p.pr0.tools/',
         'thumb' => 'cr0p',
         'name' => 'cr0p',
         'author' => 'Clusterzx',
