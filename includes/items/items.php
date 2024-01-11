@@ -86,6 +86,13 @@ $ci = [
         'author' => 'Pennypacker',
         'description' => 'Der pr0verter als Offline-Version'
       ],
+      [
+        'url' => 'https://pr0gramm.com/top/6014028',
+        'thumb' => 'cr0p',
+        'name' => 'cr0p',
+        'author' => 'Clusterzx',
+        'description' => 'Croppt Bilder/Videos automatisch um schwarze Ränder zu entfernen.'
+      ],
     ]
   ],
   'official' => [
