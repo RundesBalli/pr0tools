@@ -262,13 +262,6 @@ $ci = [
         'description' => 'Erkennt Musik in Videos und postet Titel und Interpret'
       ],
       [
-        'url' => 'https://pr0gramm.com/new/5780324',
-        'thumb' => 'txt',
-        'name' => '@txt',
-        'author' => 'KaiserVonChina',
-        'description' => 'Auslesen von Texten einer Nachrichtenseite'
-      ],
-      [
         'url' => 'https://pr0gramm.com/new/5783149',
         'thumb' => 'tldr',
         'name' => '@tldr',
