@@ -17,13 +17,6 @@ $ci = [
     'fa' => 'fas',
     'items' => [
       [
-        'url' => 'https://pr0texter.com/',
-        'thumb' => 'pr0texter',
-        'name' => 'pr0texter',
-        'author' => 'ZungeWegIchFurz',
-        'description' => 'Tool zur einfachen Erstellung von Textposts'
-      ],
-      [
         'url' => 'https://holzmaster.github.io/userscripts/eckdaten/',
         'thumb' => 'eckdaten',
         'name' => 'Eckdaten',
