@@ -199,13 +199,6 @@ $ci = [
     'fa' => 'fas',
     'items' => [
       [
-        'url' => 'https://holzmaster.github.io/suche/',
-        'thumb' => 'kommentarsuche',
-        'name' => 'Kommentarsuche',
-        'author' => 'holzmaster',
-        'description' => 'Volltextsuche in den Kommentaren'
-      ],
-      [
         'url' => 'https://kellertreff.com/',
         'thumb' => 'kellertreff',
         'name' => 'Kellertreff',
