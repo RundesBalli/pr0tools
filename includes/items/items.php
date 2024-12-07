@@ -79,13 +79,6 @@ $ci = [
         'author' => 'Pennypacker',
         'description' => 'Der pr0verter als Offline-Version'
       ],
-      [
-        'url' => 'https://cr0p.pr0.tools/',
-        'thumb' => 'cr0p',
-        'name' => 'cr0p',
-        'author' => 'Clusterzx',
-        'description' => 'Croppt Bilder/Videos automatisch um schwarze Ränder zu entfernen.'
-      ],
     ]
   ],
   'official' => [
