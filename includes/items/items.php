@@ -206,13 +206,6 @@ $ci = [
         'description' => 'Du suchst einen anderen Menschen? Zum Zocken, Unterhalten, für ein Projekt oder ein Treffen? Dann bist du beim Kellertreff genau richtig!'
       ],
       [
-        'url' => 'https://pr0keys.com/',
-        'thumb' => 'pr0keys',
-        'name' => 'pr0keys',
-        'author' => 'blussischmuser',
-        'description' => 'Auf pr0keys werden Steam-Keys für Spiele und andere Apps, die nicht mehr benötigt werden, geteilt'
-      ],
-      [
         'url' => 'http://badewannencalculator.de/',
         'thumb' => 'badewannencalculator',
         'name' => 'BadewannenCalculator',
