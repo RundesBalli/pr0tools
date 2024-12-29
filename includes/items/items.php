@@ -206,6 +206,13 @@ $ci = [
         'description' => 'Du suchst einen anderen Menschen? Zum Zocken, Unterhalten, für ein Projekt oder ein Treffen? Dann bist du beim Kellertreff genau richtig!',
       ],
       [
+        'url' => 'https://pr0p0ll.com/',
+        'thumb' => 'pr0p0ll',
+        'name' => 'pr0p0ll',
+        'author' => 'PimmelmannJones',
+        'description' => 'Stelle den Usern des pr0gramms ein paar Fragen!',
+      ],
+      [
         'url' => 'http://badewannencalculator.de/',
         'thumb' => 'badewannencalculator',
         'name' => 'BadewannenCalculator',
