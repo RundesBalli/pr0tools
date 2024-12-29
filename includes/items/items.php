@@ -59,11 +59,10 @@ $ci = [
     'fa' => 'fas',
     'items' => [
       [
-        'url' => 'https://dev.pr0verter.de/',
+        'url' => 'https://pr0verter.de/',
         'thumb' => 'pr0verter',
-        'name' => 'pr0verter (derzeit offline!)',
-        'author' => 'Insax',
-        'description' => 'Konvertiere deine Videos direkt passend fürs pr0!'
+        'name' => 'pr0verter',
+        'author' => 'PimmelmannJones',
         'description' => 'Konvertiere deine Videos direkt passend fürs pr0!',
       ],
       [
