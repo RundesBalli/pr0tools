@@ -17,10 +17,10 @@ $ci = [
     'fa' => 'fas',
     'items' => [
       [
-        'url' => 'https://holzmaster.github.io/userscripts/eckdaten/',
+        'url' => 'https://pr0gramm.com/upload-info',
         'thumb' => 'eckdaten',
         'name' => 'Eckdaten',
-        'author' => 'holzmaster',
+        'author' => 'pr0gramm',
         'description' => 'Eckdaten, Farben, Bilder für Textposts',
       ],
       [
@@ -150,13 +150,6 @@ $ci = [
     'fa' => 'fas',
     'items' => [
       [
-        'url' => 'https://holzmaster.github.io/userscripts/',
-        'thumb' => 'userscripts',
-        'name' => 'Userscripts',
-        'author' => 'holzmaster',
-        'description' => 'Userscripts und Tools. Was es gibt, was gewollt wird.',
-      ],
-      [
         'url' => 'https://scarwolf.github.io/p0weruser/p0weruser.user.js',
         'thumb' => 'p0weruser',
         'name' => 'p0weruser Userscript',
@@ -198,13 +191,6 @@ $ci = [
     'symbol' => 'f552',
     'fa' => 'fas',
     'items' => [
-      [
-        'url' => 'https://kellertreff.com/',
-        'thumb' => 'kellertreff',
-        'name' => 'Kellertreff',
-        'author' => 'holzmaster',
-        'description' => 'Du suchst einen anderen Menschen? Zum Zocken, Unterhalten, für ein Projekt oder ein Treffen? Dann bist du beim Kellertreff genau richtig!',
-      ],
       [
         'url' => 'https://pr0p0ll.com/',
         'thumb' => 'pr0p0ll',
