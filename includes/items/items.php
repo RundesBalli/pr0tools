@@ -249,6 +249,20 @@ $ci = [
       ],
     ],
   ],
+  'apps' => [
+    'title' => 'Apps',
+    'symbol' => 'f3cd',
+    'fa' => 'fas',
+    'items' => [
+      [
+        'url' => 'https://app.pr0gramm.com/',
+        'thumb' => 'app',
+        'name' => 'pr0gramm Android App',
+        'author' => 'Mopsalarm',
+        'description' => 'Die offizielle pr0gramm Android App',
+      ],
+    ],
+  ],
   'stats' => [
     'title' => 'Statistiken',
     'symbol' => 'f00b',
