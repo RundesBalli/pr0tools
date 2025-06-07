@@ -17,6 +17,13 @@ $ci = [
     'fa' => 'fas',
     'items' => [
       [
+        'url' => 'https://pr0texter.pimmelmannjones.com',
+        'thumb' => 'pr0texter',
+        'name' => 'pr0texter',
+        'author' => 'PimmelmannJones',
+        'description' => 'Tool zur einfachen Erstellung von Textposts',
+      ],
+      [
         'url' => 'https://pr0gramm.com/upload-info',
         'thumb' => 'eckdaten',
         'name' => 'Eckdaten',
