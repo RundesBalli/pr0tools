@@ -261,6 +261,13 @@ $ci = [
         'author' => 'Mopsalarm',
         'description' => 'Die offizielle pr0gramm Android App',
       ],
+      [
+        'url' => 'https://github.com/daranto/Pr0gramm-Client-IOS-MacOS',
+        'thumb' => 'iOSApp',
+        'name' => 'iOS & macOS App',
+        'author' => 'Daranto',
+        'description' => 'Inoffizielle iOS & macOS pr0gramm App',
+      ],
     ],
   ],
   'stats' => [
