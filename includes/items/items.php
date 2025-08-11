@@ -1,13 +1,13 @@
 <?php
 /**
  * includes/items/items.php
- * 
+ *
  * Categories and items.
  */
 
 /**
  * Categories and items
- * 
+ *
  * @var array
  */
 $ci = [
@@ -183,6 +183,13 @@ $ci = [
         'name' => 'Themes für Firefox',
         'author' => 'J4it',
         'description' => 'Firefox Themes in den bewährten pr0gramm Farben',
+      ],
+      [
+        'url' => 'https://napoii.github.io/pr0-score-plus/pr0-score-plus.user.js',
+        'thumb' => 'pr0-score-plus',
+        'name' => 'pr0-score-plus',
+        'author' => 'NapoII',
+        'description' => 'Zeigt BENIS, BLUSSIS, MINUS, Aktionen & Punktzahl mit Tortendiagramm. Klick kopiert Werte ins Clipboard',
       ],
       [
         'url' => 'https://github.com/pr0-dev/pr0-tv',
