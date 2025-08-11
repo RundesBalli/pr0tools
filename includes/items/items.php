@@ -157,13 +157,6 @@ $ci = [
     'fa' => 'fas',
     'items' => [
       [
-        'url' => 'https://napoii.github.io/pr0-score-plus/pr0-score-plus.user.js',
-        'thumb' => 'pr0-score-plus',
-        'name' => 'pr0-score-plus',
-        'author' => 'NapoII',
-        'description' => 'Zeigt BENIS, BLUSSIS, MINUS, Aktionen & Punktzahl mit Tortendiagramm. Klick kopiert Werte ins Clipboard',
-      ],
-      [
         'url' => 'https://scarwolf.github.io/p0weruser/p0weruser.user.js',
         'thumb' => 'p0weruser',
         'name' => 'p0weruser Userscript',
@@ -190,6 +183,13 @@ $ci = [
         'name' => 'Themes für Firefox',
         'author' => 'J4it',
         'description' => 'Firefox Themes in den bewährten pr0gramm Farben',
+      ],
+      [
+        'url' => 'https://napoii.github.io/pr0-score-plus/pr0-score-plus.user.js',
+        'thumb' => 'pr0-score-plus',
+        'name' => 'pr0-score-plus',
+        'author' => 'NapoII',
+        'description' => 'Zeigt BENIS, BLUSSIS, MINUS, Aktionen & Punktzahl mit Tortendiagramm. Klick kopiert Werte ins Clipboard',
       ],
       [
         'url' => 'https://github.com/pr0-dev/pr0-tv',
