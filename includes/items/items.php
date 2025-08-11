@@ -1,13 +1,13 @@
 <?php
 /**
  * includes/items/items.php
- * 
+ *
  * Categories and items.
  */
 
 /**
  * Categories and items
- * 
+ *
  * @var array
  */
 $ci = [
@@ -156,6 +156,13 @@ $ci = [
     'symbol' => 'f121',
     'fa' => 'fas',
     'items' => [
+      [
+        'url' => 'https://napoii.github.io/pr0-score-plus/pr0-score-plus.user.js',
+        'thumb' => 'pr0-score-plus',
+        'name' => 'pr0-score-plus',
+        'author' => 'NapoII',
+        'description' => 'Zeigt BENIS, BLUSSIS, MINUS, Aktionen & Punktzahl mit Tortendiagramm. Klick kopiert Werte ins Clipboard',
+      ],
       [
         'url' => 'https://scarwolf.github.io/p0weruser/p0weruser.user.js',
         'thumb' => 'p0weruser',
