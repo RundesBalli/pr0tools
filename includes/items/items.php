@@ -58,6 +58,13 @@ $ci = [
         'author' => 'Retrowinger',
         'description' => 'Anleitung zum Erstellen von Posts mittels Scribus',
       ],
+      [
+        'url' => 'https://github.com/MurchGit/pr0mplate',
+        'thumb' => 'affinityTemplate',
+        'name' => 'Affinity Template',
+        'author' => 'Murch',
+        'description' => 'Template zum Erstellen von Posts mittels Affinity',
+      ],
     ],
   ],
   'upload' => [
