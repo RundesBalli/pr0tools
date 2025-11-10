@@ -199,6 +199,13 @@ $ci = [
         'description' => 'Zeigt BENIS, BLUSSIS, MINUS, Aktionen & Punktzahl mit Tortendiagramm. Klick kopiert Werte ins Clipboard',
       ],
       [
+        'url' => 'https://greasyfork.org/en/scripts/550032-pr0gramm-keybindings-remapper',
+        'thumb' => 'pr0-keybindings-remapper',
+        'name' => 'Keybindings Remapper',
+        'author' => 'tecoguy',
+        'description' => 'Userscript für tampermonkey o.ä. um Keybindings auf pr0gramm zu ändern. Default Settings sind für Colemak-DH Nutzer aber leicht anpassbar.',
+      ],
+      [
         'url' => 'https://github.com/pr0-dev/pr0-tv',
         'thumb' => 'pr0tv',
         'name' => 'pr0-TV',
