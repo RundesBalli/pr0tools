@@ -203,7 +203,7 @@ $ci = [
         'thumb' => 'pr0-keybindings-remapper',
         'name' => 'Keybindings Remapper',
         'author' => 'tecoguy',
-        'description' => 'Userscript für tampermonkey o.ä. um Keybindings auf pr0gramm zu ändern. Default Settings sind für Colemak-DH Nutzer aber leicht anpassbar.',
+        'description' => 'Userscript für Tampermonkey o.ä. um Keybindings auf pr0gramm zu ändern.',
       ],
       [
         'url' => 'https://github.com/pr0-dev/pr0-tv',
