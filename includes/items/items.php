@@ -65,6 +65,13 @@ $ci = [
         'author' => 'Murch',
         'description' => 'Template zum Erstellen von Posts mittels Affinity',
       ],
+      [
+        'url' => 'https://pr0gramm.com/new/6843796',
+        'thumb' => 'inkscapeTutorial',
+        'name' => 'Inkscape Tutorial',
+        'author' => 'Analchist',
+        'description' => 'Video-Tutorial zur Erstellung eingerahmter Vorschaubilder und Text-Hochlads via Inkscape',
+      ],
     ],
   ],
   'upload' => [
