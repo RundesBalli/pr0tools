@@ -395,6 +395,13 @@ $ci = [
         'description' => '"OGame" Klon ohne Premiumfunktionen',
       ],
       [
+        'url' => 'https://benisclicker.de/',
+        'thumb' => 'benisclicker',
+        'name' => 'Benis Clicker',
+        'author' => 'Vollzeitdieb',
+        'description' => 'Idle + Clicker + pr0 = Benis Clicker',
+      ],
+      [
         'url' => 'https://pr0gramm.com/new/2230627',
         'thumb' => 'flatterfogel',
         'name' => 'Flatterfogel',
