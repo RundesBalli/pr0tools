@@ -157,7 +157,7 @@ $ci = [
         'description' => 'Der Infopost zur Rückwärtssuche auf pr0gramm',
       ],
       [
-        'url' => 'https://github.com/pr0gramm-com/api-docs',
+        'url' => 'https://pr0.app/api-documentation.html',
         'thumb' => 'apiDocs',
         'name' => 'API-Dokumentation',
         'author' => 'pr0gramm',
